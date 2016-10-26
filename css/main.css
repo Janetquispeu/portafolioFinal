@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Open Sans, sans-serif !important;
+}
+.miNombre{
+  padding-right: 16%;
+  padding-left: 11%;
+  display: inline-block;
+  color: black;
+  vertical-align: top;
+}
+.containerNav{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+ul{
+  margin: 0;
+  display: inline-block;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 0px 40px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.4s ease;
+}
+nav ul li a.active {
+  background-color: #666;
+  opacity: 0.4;
+}
+section {
+  padding: 30% 0;
+  text-align: center;
+}
+section.aboutMe {
+ background-color: #999; 
+}
+section.abilities {
+ background-color: #aaa;
+}
+section.work {
+ background-color: #bbb; 
+}
+section.contact {
+ background-color: #ccc; 
+}
+/* Hola*/
+.fly-in-text {
+  list-style: none;
+  position: absolute;
+  left: 36%;
+  top: 57%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text li {
+  display: inline-block;
+  margin-right: 26px;
+  font-family: Open Sans, Arial;
+  font-weight: 300;
+  font-size: 4em;
+  color: black;
+  opacity: 1;
+  transition: all 2.5s ease;
+}
+.fly-in-text li:last-child {
+  margin-right: 0;
+}
+.fly-in-text.hidden li {
+  opacity: 0;
+}
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(10px) translateY(100px);}
