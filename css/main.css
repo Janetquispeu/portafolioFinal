@@ -25,10 +25,13 @@ body {
 .tl{
   font-family: "Proza Libre", serif;
   font-size: 67px;
-  padding-left: 4%;
+  margin-left: 20%;
+  padding: 4% 2%;
   position: absolute;
   color: white;
   margin-top: -376px;
+  background-color: #E43753;
+  opacity: 0.8;
 }
 .aLista{
   color: black !important;
@@ -41,6 +44,7 @@ body {
   font-family: "Proza Libre", serif;
   font-size: 58px;
   font-weight: bolder;
+  color:#E43753;
 
 }
 .tlt{
@@ -60,6 +64,68 @@ body {
   right: 4%;
   position: absolute;
 }
+.curso{
+  margin-right: 47%;
+  margin-top: 47%;
+  font-size: 28px;
+}
+.clearfix{
+  display: inline-block;
+}
+.circuloContainer{
+  position: relative;
+}
+.circulohtml{
+  margin-top: 6%;
+  margin-left: 0%;
+  position: absolute;
+}
+.circulocss{
+  margin-top: 10%;
+  margin-left: 14%;
+  position: absolute;
+}
+.circulojs{
+  margin-top: 19%;
+  margin-left: 25%;
+  position: absolute;
+}
+.circulojquery{
+  margin-top: 34%;
+  margin-left: 27%;
+  position: absolute;
+}
+.circulobootstrap{
+  margin-top: 47%;
+  margin-left: 17%;
+  position: absolute;
+}
+.circulomaterialize{
+  margin-top: 52%;
+  margin-left: 4%;
+  position: absolute;
+}
+.circulogithub{
+  margin-top: 48%;
+  margin-left: -11%;
+  position: absolute;
+}
+.circulomysql{
+  margin-top: 37%;
+  margin-left: -23%;
+  position: absolute;
+}
+.circulojava{
+  margin-top: 23%;
+  margin-left: -23%;
+  position: absolute;
+}
+.circuloingles{
+  margin-top: 11%;
+  margin-left: -14%;
+  position: absolute;
+}
+
 nav ul li a {
   display: block;
   padding: 0px 40px;
@@ -76,14 +142,18 @@ section.presentacion {
 }
 section.aboutMe {
  background-image: url("../img/fondo1.png");
- padding: 12% 5% 33% 0;
+ padding: 12% 5% 44% 0;
  text-align: center; 
 
 }
 section.abilities {
  background-color: #aaa;
- padding: 30% 0;
-  text-align: center;
+ padding: 19% 7% 72% 0;
+ text-align: center;
+ /*background-image: url("../img/paisaje3.jpg");*/
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
 }
 section.work {
  background-color: #bbb;
@@ -93,8 +163,12 @@ section.work {
 section.contact {
  background-color: #ccc; 
  padding: 30% 0;
-  text-align: center;
+ text-align: center;
+ position: relative;
+ opacity: 0.5;
 }
+
+
 
 @media only screen and (max-width: 560){
   .containerLista{
@@ -105,11 +179,34 @@ section.contact {
     overflow: hidden;
     background-color: #999;
   }
-  .fly-in-text {
-    width: 100%;
-    left: 48%;
+  div.tl{
+    padding-top: 48%;
+    font-size: 26px;
   }
-  .fly-in-text li {
-    font-size: 2em;
+}
+/*grafico circular*/
+.page {
+  margin: 40px;
+}
+
+h1{
+  margin: 40px 0 60px 0;
+}
+
+.dark-area {
+  background-color: #666;
+  padding: 40px;
+  margin: 0 -40px 20px -40px;
+  clear: both;
+}
+
+.clearfix:before,.clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+@media only screen and (max-width: 960){
+  div.tl{
+    padding-top: 48%;
+    font-size: 26px;
   }
 }

@@ -88,11 +88,12 @@ canvas{
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #b61924;
-  /*background-image: url("../img/fondo3.jpg");*/
+  /*background-color: #2F1A2E;*/
+  background-image: url("../img/laptop.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
+  opacity: 0.6;
 }
 

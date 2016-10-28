@@ -31,6 +31,12 @@ $(".tlt").textillate({
   loop:false
 });
 
+$(".aboutmeh1").textillate({
+  in:{effect:'swing',delay:20},
+  out:{effect:'rollOut',sync:true,delay:1},
+  loop:true
+});
+
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
