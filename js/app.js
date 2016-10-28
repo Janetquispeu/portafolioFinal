@@ -1,3 +1,6 @@
+function hideLoader(){
+  document.getElementById('floatingBarsG').style.display="none";
+}
 (function() {
   var navLinks = $('nav ul li a'),
   navH = $('nav').height(),
@@ -14,9 +17,39 @@
       }
     });  
   });
-
-  setTimeout(function() {
-    $('.fly-in-text').removeClass('hidden');
-  }, 500);
 })();
 
+$(".tl").textillate({
+  in:{effect:'flipInY',delay:100},
+  out:{effect:'swing',shuffle:true,delay:1},
+  loop:true
+});
+
+$(".tlt").textillate({
+  in:{effect:'flipInX',delay:20},
+  out:{effect:'rollOut',sync:true,delay:1},
+  loop:false
+});
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+var count_particles, stats, update;
+stats = new Stats;
+stats.setMode(0);
+stats.domElement.style.position = 'absolute';
+stats.domElement.style.left = '0px';
+stats.domElement.style.top = '0px';
+document.body.appendChild(stats.domElement);
+count_particles = document.querySelector('.js-count-particles');
+update = function() {
+  stats.begin();
+  stats.end();
+  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+  }
+  requestAnimationFrame(update);
+};
+requestAnimationFrame(update);

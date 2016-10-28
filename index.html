@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Portafolio</title>
 	</head>
-	<body>
-    <nav class="containerNav">
-    	<div class="miNombre">Janet Quispe</div>
-      <ul>
-        <li><a href="#" class="aboutMe-marker active">About me </a></li>
-        <li><a href="#" class="abilities-marker">Abilities</a></li>
-        <li><a href="#" class="work-marker">Work</a></li>
-        <li><a href="#" class="contact-marker">Contact</a></li>
-      </ul>
+	<body onload="hideLoader()">
+    <div id="floatingBarsG">
+      <div class="blockG" id="rotateG_01"></div>
+      <div class="blockG" id="rotateG_02"></div>
+      <div class="blockG" id="rotateG_03"></div>
+      <div class="blockG" id="rotateG_04"></div>
+      <div class="blockG" id="rotateG_05"></div>
+      <div class="blockG" id="rotateG_06"></div>
+      <div class="blockG" id="rotateG_07"></div>
+      <div class="blockG" id="rotateG_08"></div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-top navBarHome">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navBarHeaderNombre">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand aNombre" href="#">Janet Quispe</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="#" class="aboutMe-marker active aLista">About me </a></li>
+            <li><a href="#" class="abilities-marker aLista">Abilities   </a></li>
+            <li><a href="#" class="work-marker aLista">Work</a></li>
+            <li><a href="#" class="contact-marker aLista">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
+    <section class="presentacion">
+      <div id="particles-js">
+        <img class="computer" src="img/computer.png">
+      </div>
+      <div class="tl">Janet Quispe Uñapillco</div>
+    </section>
     <section class="aboutMe">
-    	<div class="col l6 m6 s12">
-    		<ul class="fly-in-text hidden">
-	        <li>H</li>
-	        <li>E</li>
-	        <li>L</li>
-	        <li>L</li>
-	        <li>O</li>
-	        <li>.</li>
-	        <li>.</li>
-	        <li>!</li>
-	      </ul>
-    	</div>
-    	<div>
-    		<!-- imagen -->
-    	</div>
+      <div class="col-lg-8">
+        <h1 class="aboutmeh1">¿¿Quién Soy?</h1>
+        <p class="tlt">Hola..! Mi nombre es Janet ,soy estudiante de Ingeniería de Sistemas y Desarrolladora Front-end. Tengo 22 años y me encanta el mundo de la programación desde que lleve un curso de Java en la universidad, fue entonces que me incline por el Desarrollo Web. También me gusta hacer manualidades y practicar coreografías de baile. A futuro me veo con mi propia empresa consultora de software. </p>
+      </div>
+      <div class="col-lg-4 colFoto">
+        <img src="img/driver.jpg" alt="taxista" class="img-circle foto">
+      </div>
     </section>
     <section class="abilities">
       <h1>Gallery</h1>
@@ -43,9 +71,17 @@
     <section class="contact">
       <h1>Contact</h1>
     </section>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
    	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/participle/particles.min.js"></script>
+    <script src="js/participle/appparticle.js"></script>
+    <script src="js/participle/stats.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"  src="js/jquery.lettering.js"></script>
+    <script type="text/javascript"  src="js/jquery.textillate.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>
+
 
 

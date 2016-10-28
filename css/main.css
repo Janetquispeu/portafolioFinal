@@ -1,3 +1,7 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url(https://fonts.googleapis.com/css?family=Proza+Libre|Quicksand);
+
 * {
   margin: 0;
   padding: 0;
@@ -5,29 +9,56 @@
 body {
   font-family: Open Sans, sans-serif !important;
 }
-.miNombre{
-  padding-right: 16%;
-  padding-left: 11%;
-  display: inline-block;
-  color: black;
-  vertical-align: top;
+.navBarHome{
+  border: none;
 }
-.containerNav{
-  z-index: 999;
-  position: fixed;
-  top: 0;
-  left: 0;
+.navBarHeaderNombre{
+  padding-left: 13%;
+  padding-right: 13%;
+}
+.aNombre{
+  color: black !important;
+  font-family: "Proza Libre", serif;
+  padding: 25px 0px;
+  font-size: 33px;
+}
+.tl{
+  font-family: "Proza Libre", serif;
+  font-size: 67px;
+  padding-left: 4%;
+  position: absolute;
+  color: white;
+  margin-top: -376px;
+}
+.aLista{
+  color: black !important;
+  font-family: "Quicksand", serif;
+  font-size: 150%;
+  padding: 25px 39px !important;
+}
+.aboutmeh1{
+  padding-bottom: 5%;
+  font-family: "Proza Libre", serif;
+  font-size: 58px;
+  font-weight: bolder;
+
+}
+.tlt{
+  padding-right: 8%;
+  padding-left: 13%;
+  font-size: 25px;
+  text-align: justify;
+}
+.colFoto{
+  padding-top: 8%;
+}
+.foto{
   width: 100%;
-  text-align: center;
-  background-color: white;
 }
-ul{
-  margin: 0;
-  display: inline-block;
-}
-nav ul li {
-  list-style: none;
-  display: inline-block;
+.computer{
+  top: 22%;
+  right: 4%;
+  position: absolute;
 }
 nav ul li a {
   display: block;
@@ -38,53 +69,47 @@ nav ul li a {
 }
 nav ul li a.active {
   background-color: #666;
-  opacity: 0.4;
 }
-section {
-  padding: 30% 0;
+section.presentacion {
   text-align: center;
+  overflow-y: hidden;
 }
 section.aboutMe {
- background-color: #999; 
+ background-image: url("../img/fondo1.png");
+ padding: 12% 5% 33% 0;
+ text-align: center; 
+
 }
 section.abilities {
  background-color: #aaa;
+ padding: 30% 0;
+  text-align: center;
 }
 section.work {
- background-color: #bbb; 
+ background-color: #bbb;
+ padding: 30% 0;
+  text-align: center; 
 }
 section.contact {
  background-color: #ccc; 
+ padding: 30% 0;
+  text-align: center;
 }
-/* Hola*/
-.fly-in-text {
-  list-style: none;
-  position: absolute;
-  left: 36%;
-  top: 57%;
-  transform: translateX(-50%) translateY(-50%);
+
+@media only screen and (max-width: 560){
+  .containerLista{
+    display: none;
+  }
+  section.aboutMe {
+    position: relative;
+    overflow: hidden;
+    background-color: #999;
+  }
+  .fly-in-text {
+    width: 100%;
+    left: 48%;
+  }
+  .fly-in-text li {
+    font-size: 2em;
+  }
 }
-.fly-in-text li {
-  display: inline-block;
-  margin-right: 26px;
-  font-family: Open Sans, Arial;
-  font-weight: 300;
-  font-size: 4em;
-  color: black;
-  opacity: 1;
-  transition: all 2.5s ease;
-}
-.fly-in-text li:last-child {
-  margin-right: 0;
-}
-.fly-in-text.hidden li {
-  opacity: 0;
-}
-.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
-.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
-.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
-.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
-.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
-.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
-.fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
-.fly-in-text.hidden li:nth-child(8) { transform: translateX(10px) translateY(100px);}
