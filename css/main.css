@@ -134,7 +134,7 @@ nav ul li a {
   transition: background-color 0.4s ease;
 }
 nav ul li a.active {
-  background-color: #666;
+  background-color: #E43753;
 }
 section.presentacion {
   text-align: center;
@@ -148,17 +148,21 @@ section.aboutMe {
 }
 section.abilities {
  background-color: #aaa;
- padding: 19% 7% 72% 0;
+ padding: 5% 7% 72% 0;
  text-align: center;
- /*background-image: url("../img/paisaje3.jpg");*/
+ background-image: url("../img/paisaje4.jpg");
+ background-attachment: fixed;
  background-size: cover;
  background-repeat: no-repeat;
  position: relative;
 }
 section.work {
  background-color: #bbb;
+ background-image: url("../img/fondo2.png");
+ background-repeat:repeat;
+ position: relative;
  padding: 30% 0;
-  text-align: center; 
+ text-align: center; 
 }
 section.contact {
  background-color: #ccc; 
