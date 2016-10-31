@@ -2,12 +2,70 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url(https://fonts.googleapis.com/css?family=Proza+Libre|Quicksand);
 
+@media only screen and (max-width: 560){
+}
+
+@media only screen and (max-width: 960){
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 body {
   font-family: Open Sans, sans-serif !important;
+}
+nav ul li a {
+  display: block;
+  padding: 0px 40px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.4s ease;
+}
+nav ul li a.active {
+  background-color: #E43753;
+  color: white;
+}
+section.home {
+  text-align: center;
+  overflow-y: hidden;
+  position: relative;
+}
+section.aboutMe {
+ background-image: url("../img/fondo1.png");
+ padding: 8% 5% 44% 0;
+ text-align: center;
+ position: relative; 
+
+}
+section.abilities {
+ background-color: white;
+ padding: 5% 7% 72% 0;
+ text-align: center;
+ background-image: url("../img/fondo7.jpg");
+ background-attachment: fixed;
+ background-repeat:no-repeat;
+ background-size: cover;
+ position: relative;
+ opacity: 0.5;
+}
+section.work {
+ background-color: white;
+ /*background-image: url("../img/fondo3.jpg");*/
+ background-repeat:no-repeat;
+ background-size: cover;
+ position: relative;
+ padding: 15% 0;
+ text-align: center; 
+ position: relative;
+}
+section.contact {
+ background-image: url("../img/fondo2.png");
+ background-repeat:repeat;
+ padding: 26% 0;
+ text-align: center;
+ position: relative;
+ opacity: 0.5;
 }
 .navBarHome{
   border: none;
@@ -58,18 +116,12 @@ body {
 .colFoto{
   padding-top: 8%;
 }
-.foto{
-  width: 100%;
-}
-.computer{
-  top: 22%;
-  right: 4%;
-  position: absolute;
-}
 .curso{
   margin-right: 47%;
   margin-top: 47%;
-  font-size: 28px;
+  font-size: 24px;
+  color: white;
+  font-family: "Quicksand", serif;
 }
 .clearfix{
   display: inline-block;
@@ -77,6 +129,9 @@ body {
 .circuloContainer{
   position: relative;
   z-index: 999!important;
+  padding-left: 44%;
+  margin-top: -69%;
+  width: 78%;
 }
 .circulohtml{
   margin-top: 6%;
@@ -105,17 +160,17 @@ body {
 }
 .circulomaterialize{
   margin-top: 52%;
-  margin-left: 4%;
+  margin-left: 2%;
   position: absolute;
 }
 .circulogithub{
-  margin-top: 48%;
-  margin-left: -11%;
+  margin-top: 50%;
+  margin-left: -13%;
   position: absolute;
 }
 .circulomysql{
-  margin-top: 37%;
-  margin-left: -23%;
+  margin-top: 38%;
+  margin-left: -22%;
   position: absolute;
 }
 .circulojava{
@@ -128,112 +183,110 @@ body {
   margin-left: -14%;
   position: absolute;
 }
-
-nav ul li a {
-  display: block;
-  padding: 0px 40px;
-  text-decoration: none;
-  color: black;
-  transition: background-color 0.4s ease;
-}
-nav ul li a.active {
-  background-color: #E43753;
-  color: white;
-}
-section.presentacion {
-  text-align: center;
-  overflow-y: hidden;
-  position: relative;
-}
-section.aboutMe {
- background-image: url("../img/fondo1.png");
- padding: 8% 5% 44% 0;
- text-align: center;
- position: relative; 
-
-}
-section.abilities {
- background-color: white;
- padding: 5% 7% 72% 0;
- text-align: center;
- background-image: url("../img/fondo7.jpg");
- background-attachment: fixed;
- background-repeat:no-repeat;
- background-size: cover;
- position: relative;
- opacity: 0.5;
-}
-section.work {
- background-color: white;
- /*background-image: url("../img/fondo3.jpg");*/
- background-repeat:no-repeat;
- background-size: cover;
- position: relative;
- padding: 30% 0;
- text-align: center; 
- position: relative;
-}
-section.contact {
- background-image: url("../img/fondo2.png");
- background-repeat:repeat;
- padding: 26% 0;
- text-align: center;
- position: relative;
- opacity: 0.5;
-}
 .titleContact{
   color:#E43753 ;
   position: relative;
-  margin-top: -37%;
+  margin-top: -41%;
   text-align: center;
   font-size: 398%;
+  font-weight: bold;
 }
 .contactame{
   position: relative;
   text-align: center;
-  font-size: 194%;
+  font-size: 153%;
+  padding-bottom: 3%;
   color: white;
   font-family: "Proza Libre", serif;
 }
+.listaIcono{
+  position: relative;
+  padding-left: 43%;
+  padding-top: 2%;
+}
+.icon{
+  width: 10%;
+}
+.enlace{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+.navwork{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.navulista{
+  font-size: 200%;
+}
+.navenlace{
+  color: black !important;
+  font-family: "Proza Libre", serif;
+  cursor: pointer;
+}
+.caja-imagen img {
+transition: all 0.4s linear;
+}
+.caja-imagen .info {
+opacity: 0.5;
+background-color: #E43753;
+transition: all 0.3s ease-in-out;
+background-size: cover;
+}
 
+.caja-imagen h3 {
+transform: translateY(-200px);/*Desplazamos a la izquierda*/
+opacity: 0;
+transition: all 0.7s ease-in-out;
+text-align: center;
+}
 
-@media only screen and (max-width: 560){
-  .containerLista{
-    display: none;
-  }
-  section.aboutMe {
-    position: relative;
+.caja-imagen p {
+transform: translateY(-200px);/*Desplazamos a la derecha*/
+opacity: 0;
+transition: all 0.4s linear;
+text-align: center;
+}
+
+.caja-imagen:hover .info {
+opacity: 1;
+}
+
+.caja-imagen:hover h3,
+.caja-imagen:hover p {
+opacity: 1;
+transform: translateX(0px);/*Regresamos a las posiciones originales*/
+}
+.caja-imagen:hover p {
+transition-delay: 0.1s;
+}
+.categoria {
+  font-size: 21px;
+  color: #F3A291;
+  margin-top: 21%;
+  font-weight: bold;
+}
+.proyect {
+    font-size: 25px;
+    color: white;
+    margin-top: 3%;
+}
+.caja {
     overflow: hidden;
-    background-color: #999;
-  }
-  div.tl{
-    padding-top: 48%;
-    font-size: 26px;
-  }
+    cursor: default;
 }
-/*grafico circular*/
-.page {
-  margin: 40px;
+.caja .mascara, .caja .contenido{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
-
-h1{
-  margin: 40px 0 60px 0;
-}
-
-.dark-area {
-  background-color: #666;
-  padding: 40px;
-  margin: 0 -40px 20px -40px;
-  clear: both;
-}
-
-.clearfix:before,.clearfix:after {content: " "; display: table;}
-.clearfix:after {clear: both;}
-.clearfix {*zoom: 1;}
-
-@media only screen and (max-width: 960){
-  div.tl{
-    padding-top: 48%;
-    font-size: 26px;
-  }
+.l{
+  padding: 0;
+  margin: 0;
 }
