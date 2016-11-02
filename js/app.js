@@ -65,3 +65,30 @@ $(".enlace1").mouseleave(function(e){
   $(this).css("display","block");
   $(this).next().css("display","none");
 });
+
+$(".enlace2").mouseenter(function(e){
+  $(this).css("display","none");
+  $(this).next().css("display","block");
+});
+$(".enlace2").mouseleave(function(e){
+  $(this).css("display","block");
+  $(this).next().css("display","none");
+});
+
+$(".enlace3").mouseenter(function(e){
+  $(this).css("display","none");
+  $(this).next().css("display","block");
+});
+$(".enlace3").mouseleave(function(e){
+  $(this).css("display","block");
+  $(this).next().css("display","none");
+});
+
+$(".enlace4").mouseenter(function(e){
+  $(this).css("display","none");
+  $(this).next().css("display","block");
+});
+$(".enlace4").mouseleave(function(e){
+  $(this).css("display","block");
+  $(this).next().css("display","none");
+});

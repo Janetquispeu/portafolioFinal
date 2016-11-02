@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url(https://fonts.googleapis.com/css?family=Proza+Libre|Quicksand);
 
-@media only screen and (max-width: 560){
-}
-
-@media only screen and (max-width: 960){
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +30,7 @@ section.home {
 }
 section.aboutMe {
  background-image: url("../img/fondo1.png");
- padding: 15% 5% 48% 0;
+ padding: 15% 5% 17% 0;
  text-align: center;
  position: relative; 
 
@@ -54,9 +48,6 @@ section.abilities {
 }
 section.project {
  background-color: white;
- /*background-image: url("../img/fondo3.jpg");*/
- background-repeat:no-repeat;
- background-size: cover;
  position: relative;
  padding: 15% 0;
  text-align: center; 
@@ -65,7 +56,7 @@ section.project {
 section.contact {
  background-image: url("../img/fondo2.png");
  background-repeat:repeat;
- padding: 26% 0;
+ padding: 19% 0;
  text-align: center;
  position: relative;
 }
@@ -117,7 +108,7 @@ section.contact {
   font-family: "Proza Libre", serif;
 }
 .skills{
-  margin-top: -49%;
+  margin-top: -46%;
   margin-left: 45%;
   font-family: "Proza Libre", serif;
   color:#E43753;
@@ -128,7 +119,7 @@ section.contact {
 .project{
   font-size: 186%;
   position: absolute;
-  top: 6%;
+  top: 7%;
   left: 0;
   right: 0;
   font-family: "Quicksand", serif;
@@ -152,7 +143,7 @@ section.contact {
   position: absolute;
   z-index: 999!important;
   padding-left: 48%;
-  margin-top: -46%;
+  margin-top: -43%;
   width: 59%;
 }
 .circulohtml{
@@ -241,7 +232,7 @@ section.contact {
   font-size: 350%;
   font-weight: bold;
   font-family: "Quicksand", serif;
-  margin-top: -13%;
+  margin-top: -8%;
   padding-bottom: 2%;
 
 }
@@ -268,7 +259,7 @@ section.contact {
   position: absolute;
   left: 0;
   right: 0;
-  top: 14%;
+  top: 15%;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -354,4 +345,99 @@ footer{
 }
 .enlaces1{
   display: none;
+}
+.datos{
+  color: white;
+  font-size: 154%;
+  font-family: "Quicksand", serif;
+  padding-top: 12%;
+}
+
+@media only screen and (max-width: 320px){
+  .aNombre{
+    font-size: 203% !important;
+    padding-top: 7% !important;
+  }
+  .tl{
+    font-size: 33px !important;
+    margin-left: 6% !important;
+    margin-right: 6% ;
+    padding: 5% 0% !important;
+    margin-top: -277px !important;
+  }
+  section.home{
+    height: 80vh;
+  }
+  .aboutmeh1{
+    font-size: 44px !important;
+  }
+  .tlt{
+    font-size: 14px !important;
+    line-height: 158% !important;
+  }
+  section.abilities{
+    height: 100vh;
+  }
+  .navwork {
+    font-size: 36% !important;
+  }
+  .containerwork{
+    margin: 38% 4% 0 4%;
+  }
+  .titleContact {
+    font-size: 307%;
+  }
+  .contactame{
+    font-size: 135%;
+  }
+  .datos{
+    font-size: 126%;
+    padding: 0 0 18% 0 ;
+  }
+}
+
+
+@media only screen and (max-width:375px){
+  section.home{
+    height: 80vh;
+  }
+  .tl{
+    font-size: 33px !important;
+    margin-left: 6% !important;
+    margin-right: 6% ;
+    margin-top: -302px !important;
+  }
+  .tlt{
+    font-size: 16px ;
+    line-height: 158%;
+  }
+  .aboutmeh1{
+    font-size: 39px;
+  }
+  .colFoto {
+    margin-left: 5%;
+  }
+  section.abilities{
+    height: 100vh;
+  }
+  .project{
+    top: 1%;
+  }
+  .navwork {
+    top: 7%;
+    font-size: 47%;
+  }
+  .containerwork{
+    margin: 38% 4% 0 4%;
+  }
+  .titleContact {
+    font-size: 307%;
+  }
+  .contactame{
+    font-size: 135%;
+  }
+  .datos{
+    font-size: 126%;
+    padding: 0 0 18% 0 ;
+  }
 }
