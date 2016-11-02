@@ -56,3 +56,12 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+$(".enlace1").mouseenter(function(e){
+  $(this).css("display","none");
+  $(this).next().css("display","block");
+});
+$(".enlace1").mouseleave(function(e){
+  $(this).css("display","block");
+  $(this).next().css("display","none");
+});

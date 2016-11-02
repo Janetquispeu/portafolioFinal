@@ -26,6 +26,9 @@ nav ul li a.active {
   background-color: #E43753;
   color: white;
 }
+a:hover{
+  color: #E43753 !important;
+}
 section.home {
   text-align: center;
   overflow-y: hidden;
@@ -33,14 +36,14 @@ section.home {
 }
 section.aboutMe {
  background-image: url("../img/fondo1.png");
- padding: 8% 5% 44% 0;
+ padding: 15% 5% 48% 0;
  text-align: center;
  position: relative; 
 
 }
 section.abilities {
  background-color: white;
- padding: 5% 7% 72% 0;
+ padding: 15% 7% 37% 0;
  text-align: center;
  background-image: url("../img/fondo7.jpg");
  background-attachment: fixed;
@@ -49,7 +52,7 @@ section.abilities {
  position: relative;
  opacity: 0.5;
 }
-section.work {
+section.project {
  background-color: white;
  /*background-image: url("../img/fondo3.jpg");*/
  background-repeat:no-repeat;
@@ -65,7 +68,6 @@ section.contact {
  padding: 26% 0;
  text-align: center;
  position: relative;
- opacity: 0.5;
 }
 .navBarHome{
   border: none;
@@ -98,11 +100,12 @@ section.contact {
   padding: 25px 39px !important;
 }
 .aboutmeh1{
-  padding-bottom: 1%;
+  padding-bottom: 8%;
   font-family: "Proza Libre", serif;
   font-size: 58px;
   font-weight: bolder;
   color:#E43753;
+  margin-top: -3%;
 
 }
 .tlt{
@@ -114,10 +117,23 @@ section.contact {
   font-family: "Proza Libre", serif;
 }
 .skills{
+  margin-top: -49%;
+  margin-left: 45%;
   font-family: "Proza Libre", serif;
   color:#E43753;
   font-weight: bold;
   position: absolute;
+  font-size: 400%;
+}
+.project{
+  font-size: 186%;
+  position: absolute;
+  top: 6%;
+  left: 0;
+  right: 0;
+  font-family: "Quicksand", serif;
+  color: #E43753;
+  font-weight: bolder;
 }
 .colFoto{
   padding-top: 8%;
@@ -135,9 +151,9 @@ section.contact {
 .circuloContainer{
   position: absolute;
   z-index: 999!important;
-  padding-left: 44%;
-  margin-top: -69%;
-  width: 78%;
+  padding-left: 48%;
+  margin-top: -46%;
+  width: 59%;
 }
 .circulohtml{
   margin-top: 6%;
@@ -189,21 +205,51 @@ section.contact {
   margin-left: -14%;
   position: absolute;
 }
+.curso1{
+  margin-left: 4%;
+}
+.curso2{
+  margin-left: 10%;
+}
+.curso3{
+  margin-left: -15%;
+}
+.curso4{
+  margin-left: -9%;
+}
+.curso5{
+  margin-left: -7%;
+}
+.curso6{
+  margin-left: -15%;
+}
+.curso7{
+
+}
+.curso8{
+  margin-left: 18%;
+}
+.curso9{
+  margin-left: 10%;
+} 
+.curso10{
+  
+}
 .titleContact{
   color:#E43753 ;
-  position: relative;
-  margin-top: -41%;
   text-align: center;
-  font-size: 398%;
+  font-size: 350%;
   font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-top: -13%;
+  padding-bottom: 2%;
+
 }
 .contactame{
-  position: relative;
-  text-align: center;
-  font-size: 153%;
-  padding-bottom: 3%;
+  font-size: 186%;
   color: white;
-  font-family: "Proza Libre", serif;
+  padding-bottom: 9%;
+  font-family: "Quicksand", serif;
 }
 .listaIcono{
   position: relative;
@@ -211,7 +257,7 @@ section.contact {
   padding-top: 2%;
 }
 .icon{
-  width: 10%;
+  width: 26%;
 }
 .enlace{
   text-decoration: none;
@@ -222,18 +268,21 @@ section.contact {
   position: absolute;
   left: 0;
   right: 0;
-  top: 7%;
+  top: 14%;
   align-items: center;
   display: flex;
   justify-content: center;
+  font-size: 53%;
+  font-weight: normal;
 }
 .navulista{
   font-size: 200%;
 }
 .navenlace{
   color: black !important;
-  font-family: "Proza Libre", serif;
+  font-family: "Quicksand", serif;
   cursor: pointer;
+  font-size: 50%;
 }
 .caja-imagen img {
 transition: all 0.4s linear;
@@ -295,4 +344,14 @@ transition-delay: 0.1s;
 .l{
   padding: 0;
   margin: 0;
+}
+
+footer{
+  text-align: center;
+  color:#E43753;
+  padding: 1%;
+  background-color: black;
+}
+.enlaces1{
+  display: none;
 }
