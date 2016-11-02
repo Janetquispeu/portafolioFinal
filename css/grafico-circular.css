@@ -1,3 +1,27 @@
+/*grafico circular*/
+.page {
+  margin: 40px;
+}
+h1{
+  margin: 40px 0 60px 0;
+}
+.dark-area {
+  background-color: #666;
+  padding: 40px;
+  margin: 0 -40px 20px -40px;
+  clear: both;
+}
+.clearfix:before,.clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.caja-imagen .info, .box-image .contenido {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
 .rect-auto,
 .c100.p51 .slice,
 .c100.p52 .slice,
@@ -223,6 +247,7 @@
   transform: rotate(180deg);
 }
 .c100 {
+  opacity: 0.6;
   position: relative;
   font-size: 120px;
   width: 1em;
@@ -258,7 +283,7 @@
   width: 5em;
   line-height: 5em;
   font-size: 0.2em;
-  color: #cccccc;
+  color: #E43753;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -1011,7 +1036,7 @@
   width: 3.33em;
   line-height: 3.33em;
   font-size: 0.3em;
-  color: #307bbb;
+  color: #E43753;
 }
 .c100:hover:after {
   top: 0.04em;
