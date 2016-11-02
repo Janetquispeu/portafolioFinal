@@ -37,7 +37,7 @@ section.aboutMe {
 }
 section.abilities {
  background-color: white;
- padding: 15% 7% 37% 0;
+ padding: 36% 7% 60% 0;
  text-align: center;
  background-image: url("../img/fondo7.jpg");
  background-attachment: fixed;
@@ -108,9 +108,10 @@ section.contact {
   font-family: "Proza Libre", serif;
 }
 .skills{
-  margin-top: -46%;
-  margin-left: 45%;
-  font-family: "Proza Libre", serif;
+  margin-top: -91%;
+  margin-left: 41%;
+  font-family: "Quicksand", serif;
+  font-weight: bolder !important;
   color:#E43753;
   font-weight: bold;
   position: absolute;
@@ -140,62 +141,17 @@ section.contact {
   display: inline-block;
 }
 .circuloContainer{
-  position: absolute;
-  z-index: 999!important;
-  padding-left: 48%;
-  margin-top: -43%;
-  width: 59%;
+  margin-top: -83%;
 }
-.circulohtml{
-  margin-top: 6%;
-  margin-left: 0%;
-  position: absolute;
+.skill1{
+  padding-left: 34%;
+  padding-bottom: 3%;
 }
-.circulocss{
-  margin-top: 10%;
-  margin-left: 14%;
-  position: absolute;
+.skill2{
+  padding-left: 3%;
+  padding-bottom: 3%;
 }
-.circulojs{
-  margin-top: 19%;
-  margin-left: 25%;
-  position: absolute;
-}
-.circulojquery{
-  margin-top: 34%;
-  margin-left: 27%;
-  position: absolute;
-}
-.circulobootstrap{
-  margin-top: 47%;
-  margin-left: 17%;
-  position: absolute;
-}
-.circulomaterialize{
-  margin-top: 52%;
-  margin-left: 2%;
-  position: absolute;
-}
-.circulogithub{
-  margin-top: 50%;
-  margin-left: -13%;
-  position: absolute;
-}
-.circulomysql{
-  margin-top: 38%;
-  margin-left: -22%;
-  position: absolute;
-}
-.circulojava{
-  margin-top: 23%;
-  margin-left: -23%;
-  position: absolute;
-}
-.circuloingles{
-  margin-top: 11%;
-  margin-left: -14%;
-  position: absolute;
-}
+
 .curso1{
   margin-left: 4%;
 }
@@ -215,7 +171,7 @@ section.contact {
   margin-left: -15%;
 }
 .curso7{
-
+  margin-left: 31%;
 }
 .curso8{
   margin-left: 18%;
@@ -397,6 +353,12 @@ p>a{
     font-size: 126%;
     padding: 0 0 18% 0 ;
   }
+  .skill1{
+    padding-left: 34% !important;
+  }
+  .skill2{
+    padding-left: 34% !important;
+  }
 }
 
 
@@ -421,7 +383,7 @@ p>a{
     margin-left: 5%;
   }
   section.abilities{
-    height: 100vh;
+    padding: 393% 7% 123% 0;
   }
   .project{
     top: 1%;
@@ -443,6 +405,19 @@ p>a{
     font-size: 126%;
     padding: 0 0 18% 0 ;
   }
+  .skill1{
+    padding-left: 34% !important;
+  }
+  .skill2{
+    padding-left: 34% !important;
+  }
+  .skills{
+    margin-top: -504% !important;
+    margin-left: 27% !important;
+  }
+  .circuloContainer {
+    margin-top: -479%;
+}
 }
 @media (min-width: 384px) and (max-width:414px){
   .aboutmeh1{
