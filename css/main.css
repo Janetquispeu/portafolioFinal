@@ -352,6 +352,9 @@ footer{
   font-family: "Quicksand", serif;
   padding-top: 12%;
 }
+p>a{
+  color: white;
+}
 
 @media only screen and (max-width: 320px){
   .aNombre{
@@ -363,7 +366,7 @@ footer{
     margin-left: 6% !important;
     margin-right: 6% ;
     padding: 5% 0% !important;
-    margin-top: -277px !important;
+    margin-top: -264px !important;
   }
   section.home{
     height: 80vh;
@@ -438,6 +441,131 @@ footer{
   }
   .datos{
     font-size: 126%;
+    padding: 0 0 18% 0 ;
+  }
+}
+@media (min-width: 384px) and (max-width:414px){
+  .aboutmeh1{
+    font-size: 44px;
+  }
+  .tl{
+    margin-top: -279px;
+    font-size: 41px;
+  }
+  section.home {
+    height: 100vh
+  }
+  .tl{
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .colFoto {
+   padding: 0 5% 0 11% ;
+  }
+  section.abilities {
+    height: 100vh
+  }
+  .skills{
+    margin-top: -123%;
+    font-size: 326%;
+    margin-left: 36%;
+  }
+  .circuloContainer {
+    margin-top: -77%;
+    width: 118%;
+  }
+  .project{
+    top: 1%;
+  }
+  .navwork {
+    top: 5%;
+  }
+  .containerwork {
+    margin-top: 16%;
+  }
+  .datos{
+    font-size: 186%;
+    padding: 0 0 18% 0 ;
+  }
+
+}
+@media (min-width: 568px) and (max-width:667px){
+  .tl{
+    margin-top: -279px;
+    font-size: 41px;
+  }
+  section.home {
+    height: 100vh
+  }
+  .tl{
+    left: 0;
+    right: 0;
+    font-size: 41px;
+    margin-left: 0;
+  }
+  .colFoto {
+   padding: 0 5% 0 11% ;
+  }
+  section.abilities {
+    height: 100vh
+  }
+  .skills{
+    margin-top: -82%;
+    font-size: 342%;
+  }
+  .circuloContainer {
+    margin-top: -77%;
+    width: 118%;
+  }
+  .project{
+    top: 1%;
+  }
+  .navwork {
+    top: 5%;
+  }
+  .containerwork {
+    margin-top: 16%;
+  }
+  .datos{
+    font-size: 186%;
+    padding: 0 0 18% 0 ;
+  }
+}
+@media (min-width: 736px) and (max-width:1024px){
+  .aLista{
+    padding: 25px 12px !important;
+  }
+  .tl{
+    margin-top: -359px;
+    font-size: 41px;
+  }
+  .colFoto {
+   padding: 0 5% 0 11% ;
+  }
+  section.abilities {
+    height: 100vh
+  }
+  .skills{
+    margin-top: -68%;
+    font-size: 342%;
+  }
+  .circuloContainer {
+    margin-top: -63%;
+    width: 86%;
+  }
+  .project{
+    top: 1%;
+  }
+  .navwork {
+    top: 5%;
+  }
+  .containerwork {
+    margin-top: 11%;
+  }
+  .datos{
+    font-size: 186%;
     padding: 0 0 18% 0 ;
   }
 }
