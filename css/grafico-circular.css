@@ -247,6 +247,7 @@ h1{
   transform: rotate(180deg);
 }
 .c100 {
+  opacity: 0.6;
   position: relative;
   font-size: 120px;
   width: 1em;

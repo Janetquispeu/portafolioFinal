@@ -113,6 +113,12 @@ section.contact {
   line-height: 171%;
   font-family: "Proza Libre", serif;
 }
+.skills{
+  font-family: "Proza Libre", serif;
+  color:#E43753;
+  font-weight: bold;
+  position: absolute;
+}
 .colFoto{
   padding-top: 8%;
 }
@@ -127,7 +133,7 @@ section.contact {
   display: inline-block;
 }
 .circuloContainer{
-  position: relative;
+  position: absolute;
   z-index: 999!important;
   padding-left: 44%;
   margin-top: -69%;
