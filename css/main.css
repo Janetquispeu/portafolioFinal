@@ -35,21 +35,30 @@ section.aboutMe {
  position: relative; 
 
 }
-section.abilities {
- background-color: white;
- padding: 36% 7% 60% 0;
- text-align: center;
- background-image: url("../img/fondo7.jpg");
+section.frase {
+  padding: 8%;
+  color: black;
+  background-image: url("../img/fondo7.jpg");
  background-attachment: fixed;
  background-repeat:no-repeat;
  background-size: cover;
+ font-size: 280%;
+ font-weight: bold;
+}
+section.abilities {
+ background-color: white;
+ padding: 2% 0 48% 0;
+ text-align: center;
+ background-image: url("../img/fondo3.png");
+ background-repeat:repeat;
+
+
  position: relative;
- opacity: 0.5;
 }
 section.project {
  background-color: white;
  position: relative;
- padding: 15% 0;
+ padding: 6% 0 15% 0;
  text-align: center; 
  position: relative;
 }
@@ -76,7 +85,6 @@ section.contact {
 .tl{
   font-family: "Proza Libre", serif;
   font-size: 67px;
-  margin-left: 20%;
   padding: 4% 2%;
   position: absolute;
   color: white;
@@ -107,80 +115,96 @@ section.contact {
   line-height: 171%;
   font-family: "Proza Libre", serif;
 }
+.autor{
+  float: right;
+}
 .skills{
-  margin-top: -91%;
-  margin-left: 41%;
   font-family: "Quicksand", serif;
   font-weight: bolder !important;
   color:#E43753;
   font-weight: bold;
   position: absolute;
   font-size: 400%;
+  margin-top: 62%;
+}
+.rowskill{
+  margin-left: 0 ;
+  margin-right: 0;
 }
 .project{
   font-size: 186%;
   position: absolute;
-  top: 7%;
   left: 0;
   right: 0;
   font-family: "Quicksand", serif;
   color: #E43753;
   font-weight: bolder;
 }
-.colFoto{
-  padding-top: 8%;
-}
-.curso{
-  margin-right: 47%;
-  margin-top: 47%;
-  font-size: 24px;
-  color: white;
-  font-family: "Quicksand", serif;
-}
 .clearfix{
   display: inline-block;
 }
 .circuloContainer{
-  margin-top: -83%;
+  position: absolute;
+  width: 72%;
+  margin-top: 0%;
 }
-.skill1{
-  padding-left: 34%;
-  padding-bottom: 3%;
+.circulohtml{
+  margin-top: 3%;
+  margin-left: 33%;
+  position: absolute;
 }
-.skill2{
-  padding-left: 3%;
-  padding-bottom: 3%;
+.circulocss{
+  margin-top: 11%;
+  margin-left: 53%;
+  position: absolute;
+}
+.circulojs{
+  margin-top: 24%;
+  margin-left: 70%;
+  position: absolute;
+}
+.circulojquery{
+  margin-top: 48%;
+  margin-left: 70%;
+  position: absolute;
+}
+.circulobootstrap{
+  margin-top: 61%;
+  margin-left: 54%;
+  position: absolute;
+}
+.circulomaterialize{
+  margin-top:68%;
+  margin-left: 34%;
+  position: absolute;
+}
+.circulogithub{
+  margin-top: 61%;
+  margin-left: 14%;
+  position: absolute;
+}
+.circulomysql{
+  margin-top: 48%;
+  margin-left: -2%;
+  position: absolute;
+}
+.circulojava{
+  margin-top: 24%;
+  margin-left: -2%;
+  position: absolute;
+}
+.circuloingles{
+  margin-top: 11%;
+  margin-left: 13%;
+  position: absolute;
 }
 
-.curso1{
-  margin-left: 4%;
-}
-.curso2{
-  margin-left: 10%;
-}
-.curso3{
-  margin-left: -15%;
-}
-.curso4{
-  margin-left: -9%;
-}
-.curso5{
-  margin-left: -7%;
-}
-.curso6{
-  margin-left: -15%;
-}
-.curso7{
-  margin-left: 31%;
-}
-.curso8{
-  margin-left: 18%;
-}
-.curso9{
-  margin-left: 10%;
-} 
-.curso10{
-  
+.curso{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
 }
 .titleContact{
   color:#E43753 ;
@@ -211,11 +235,14 @@ section.contact {
   color: white;
   vertical-align: middle;
 }
+.containerwork{
+    margin-top: 9%;
+  }
 .navwork{
   position: absolute;
   left: 0;
   right: 0;
-  top: 15%;
+  top: 27%;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -311,236 +338,72 @@ footer{
 p>a{
   color: white;
 }
-
-@media only screen and (max-width: 320px){
-  .aNombre{
-    font-size: 203% !important;
-    padding-top: 7% !important;
-  }
-  .tl{
-    font-size: 33px !important;
-    margin-left: 6% !important;
-    margin-right: 6% ;
-    padding: 5% 0% !important;
-    margin-top: -264px !important;
-  }
-  section.home{
-    height: 80vh;
-  }
-  .aboutmeh1{
-    font-size: 44px !important;
-  }
-  .tlt{
-    font-size: 14px !important;
-    line-height: 158% !important;
-  }
-  section.abilities{
-    height: 100vh;
-  }
-  .navwork {
-    font-size: 36% !important;
-  }
-  .containerwork{
-    margin: 38% 4% 0 4%;
-  }
-  .titleContact {
-    font-size: 307%;
-  }
-  .contactame{
-    font-size: 135%;
-  }
-  .datos{
-    font-size: 126%;
-    padding: 0 0 18% 0 ;
-  }
-  .skill1{
-    padding-left: 34% !important;
-  }
-  .skill2{
-    padding-left: 34% !important;
-  }
+p>a:hover{
+  color: white !important;
+  text-decoration: none;
 }
-
-
-@media only screen and (max-width:375px){
-  section.home{
-    height: 80vh;
-  }
-  .tl{
-    font-size: 33px !important;
-    margin-left: 6% !important;
-    margin-right: 6% ;
-    margin-top: -302px !important;
-  }
-  .tlt{
-    font-size: 16px ;
-    line-height: 158%;
-  }
-  .aboutmeh1{
-    font-size: 39px;
-  }
-  .colFoto {
-    margin-left: 5%;
-  }
-  section.abilities{
-    padding: 393% 7% 123% 0;
-  }
-  .project{
-    top: 1%;
-  }
-  .navwork {
-    top: 7%;
-    font-size: 47%;
-  }
-  .containerwork{
-    margin: 38% 4% 0 4%;
-  }
-  .titleContact {
-    font-size: 307%;
-  }
-  .contactame{
-    font-size: 135%;
-  }
-  .datos{
-    font-size: 126%;
-    padding: 0 0 18% 0 ;
-  }
-  .skill1{
-    padding-left: 34% !important;
-  }
-  .skill2{
-    padding-left: 34% !important;
-  }
-  .skills{
-    margin-top: -504% !important;
-    margin-left: 27% !important;
-  }
-  .circuloContainer {
-    margin-top: -479%;
-}
-}
-@media (min-width: 384px) and (max-width:414px){
-  .aboutmeh1{
-    font-size: 44px;
-  }
-  .tl{
-    margin-top: -279px;
-    font-size: 41px;
-  }
-  section.home {
-    height: 100vh
-  }
-  .tl{
-    left: 0;
-    right: 0;
-    font-size: 15px;
-    margin-left: 0;
-  }
-  .colFoto {
-   padding: 0 5% 0 11% ;
-  }
-  section.abilities {
-    height: 100vh
-  }
-  .skills{
-    margin-top: -123%;
-    font-size: 326%;
-    margin-left: 36%;
-  }
-  .circuloContainer {
-    margin-top: -77%;
-    width: 118%;
-  }
-  .project{
-    top: 1%;
-  }
-  .navwork {
-    top: 5%;
-  }
-  .containerwork {
-    margin-top: 16%;
-  }
-  .datos{
-    font-size: 186%;
-    padding: 0 0 18% 0 ;
-  }
-
-}
-@media (min-width: 568px) and (max-width:667px){
-  .tl{
-    margin-top: -279px;
-    font-size: 41px;
-  }
-  section.home {
-    height: 100vh
-  }
-  .tl{
-    left: 0;
-    right: 0;
-    font-size: 41px;
-    margin-left: 0;
-  }
-  .colFoto {
-   padding: 0 5% 0 11% ;
-  }
-  section.abilities {
-    height: 100vh
-  }
-  .skills{
-    margin-top: -82%;
-    font-size: 342%;
-  }
-  .circuloContainer {
-    margin-top: -77%;
-    width: 118%;
-  }
-  .project{
-    top: 1%;
-  }
-  .navwork {
-    top: 5%;
-  }
-  .containerwork {
-    margin-top: 16%;
-  }
-  .datos{
-    font-size: 186%;
-    padding: 0 0 18% 0 ;
-  }
-}
-@media (min-width: 736px) and (max-width:1024px){
+/*Media  queries*/
+@media (min-width: 992px) and (max-width: 1199px) {
   .aLista{
-    padding: 25px 12px !important;
-  }
-  .tl{
-    margin-top: -359px;
-    font-size: 41px;
-  }
-  .colFoto {
-   padding: 0 5% 0 11% ;
-  }
-  section.abilities {
-    height: 100vh
-  }
-  .skills{
-    margin-top: -68%;
-    font-size: 342%;
-  }
-  .circuloContainer {
-    margin-top: -63%;
-    width: 86%;
-  }
-  .project{
-    top: 1%;
-  }
-  .navwork {
-    top: 5%;
-  }
-  .containerwork {
-    margin-top: 11%;
-  }
-  .datos{
-    font-size: 186%;
-    padding: 0 0 18% 0 ;
+    font-size: 133%;
+    padding: 25px 35px !important;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  section.home {
+    height: 93vh;
+  }
+  .tl{
+    font-size: 53px;
+    bottom: 25%;
+  }
+  .aLista{
+    font-size: 131%;
+    padding: 25px 14px !important;
+  }
+
+}
+@media (max-width: 767px) {
+  section.home {
+    height: 66vh;
+  }
+  .tl{
+    font-size: 44px;
+    bottom: 24%;
+  }
+}
+@media (max-width: 480px) {
+  .aNombre{
+    padding-bottom: 13%;
+  }
+  section.home {
+    height: 60vh;
+  }
+  .tl{
+    font-size: 37px;
+    bottom: 29%;
+  }
+  .tlt{
+    padding-right: 6%;
+    padding-left: 11%;
+    font-size: 19px;
+  }
+  .circuloContainer{
+    display: none;
+  }
+  .colFoto{
+    padding: 6% 5% 0 10%;
+  }
+  section.frase{
+    padding: 14%;
+  }
+  .containerwork {
+    margin-top: 23%;
+    padding: 0 10%;
+  }
+  .datos{
+    padding: 0 0 17% 0;
+  }
+
+}
+

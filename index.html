@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/loading.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="ico.ico">
     <title>Portafolio</title>
   </head>
   <body onload="hideLoader()">
@@ -39,7 +40,7 @@
           <ul class="nav navbar-nav navbar-center">
             <li><a href="#aboutMe" class="aboutMe-marker active aLista">About me </a></li>
             <li><a href="#skill" class="abilities-marker aLista">Skills </a></li>
-            <li><a href="#project" class="work-marker aLista">Projects</a></li>
+            <li><a href="#project" class="project-marker aLista">Projects</a></li>
             <li><a href="#contact" class="contact-marker aLista">Contact</a></li>
           </ul>
         </div>
@@ -48,7 +49,11 @@
     <section class="home">
       <div id="particles-js">
       </div>
-      <div class="tl">Janet Quispe Uñapillco</div>
+      <div class="container-fluid">
+        <div class="row">
+        <div class="tl col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">Janet Quispe Uñapillco</div>
+      </div>
+      </div>
     </section>
     <a name="aboutMe"></a>
     <section class="aboutMe">
@@ -68,12 +73,12 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img src="img/fondo7.jpg" alt="driver">
+                <img src="img/perfil1.jpg" alt="driver">
                 <div class="carousel-caption">
                 </div>
               </div>
               <div class="item">
-                <img src="img/laptop.jpg" alt="laptop">
+                <img src="img/perfil3.jpg" alt="laptop">
                 <div class="carousel-caption">
                 </div>
               </div>
@@ -91,161 +96,137 @@
         </div>
       </div>
     </section>
+    <section class="frase">
+      "El único modo de hacer un gran trabajo es Amar lo que haces"
+      <span class="autor">__Steve Jobs</span> 
+    </section>
     <a name="skill"></a>
     <section class="abilities">
+      <div>
+        <div class="row rowskill">
+          <div class="col-md-4 col-md-offset-5">
+            <div class="skills">My Skills</div>
+          </div>
+        </div>
+      </div>
+      <div class="circuloContainer">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-1 col-sm-12 show">
+            <div class="clearfix circulohtml">
+              <div class="c100 p90">
+                <span>90%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso1">HTML5</div>
+            </div>
+            <div class="clearfix circulocss">
+              <div class="c100 p80">
+                <span>80%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso2">CSS3</div>
+            </div>
+            <div class="clearfix circulojs">
+              <div class="c100 p80">
+                <span>80%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso3">Javascript</div>
+            </div>
+            <div class="clearfix circulojquery">
+              <div class="c100 p75">
+                <span>75%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso4">Jquery</div>
+            </div>
+            <div class="clearfix circulobootstrap">
+              <div class="c100 p78">
+                <span>78%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso5">Bootstrap</div>
+            </div>
+            <div class="clearfix circulomaterialize">
+              <div class="c100 p75">
+                <span>75%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso6">Materialize</div>
+            </div>
+            <div class="clearfix circulogithub">
+              <div class="c100 p80">
+                <span>80%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso7">Github</div>
+            </div>
+            <div class="clearfix circulomysql">
+              <div class="c100 p80">
+                <span>80%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso8">SQL</div>
+            </div>
+            <div class="clearfix circulojava">
+              <div class="c100 p60">
+                <span>60%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso9">Java</div>
+            </div>
+            <div class="clearfix circuloingles">
+              <div class="c100 p55">
+                <span>I0 I</span>
+                <div class="slice">
+                  <div class="bar barcolor"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <div class="curso curso10">English</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <div class="skills">My Skills</div>
-    <div class="container-fluid circuloContainer">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 skill1">
-          <div class="clearfix circulohtml">
-            <div class="c100 p90">
-              <span>90%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso1">HTML5</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 skill2">
-          <div class="clearfix circulocss">
-            <div class="c100 p80">
-              <span>80%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso2">CSS3</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12 skill1">
-          <div class="clearfix circulojs">
-            <div class="c100 p80">
-              <span>80%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso3">Javascript</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 skill2">
-          <div class="clearfix circulojquery">
-            <div class="c100 p75">
-              <span>75%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso4">Jquery</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12 skill1">
-          <div class="clearfix circulobootstrap">
-            <div class="c100 p78">
-              <span>78%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso5">Bootstrap</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 skill2">
-          <div class="clearfix circulomaterialize">
-            <div class="c100 p75">
-              <span>75%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso6">Materialize</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12 skill1">
-          <div class="clearfix circulogithub">
-            <div class="c100 p80">
-              <span>80%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso7">Git</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 skill2">
-          <div class="clearfix circulomysql">
-            <div class="c100 p80">
-              <span>80%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso8">SQL</div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12 skill1">
-          <div class="clearfix circulojava">
-            <div class="c100 p60">
-              <span>60%</span>
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso9">Java</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 skill2">
-          <div class="clearfix circuloingles">
-            <div class="c100 p55">
-              <span>I0 I</span>
-              <div class="slice">
-                <div class="bar barcolor"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="curso curso10">English</div>
-          </div>
-        </div>
-      </div>
-    </div>
     <a name="project"></a>
     <section class="project">
       <div class="project">Projects</div>
-      <div class="container-fluids navwork">
-     	 <ul class="nav nav-pills center-block navulista">
-       <ul class="nav nav-pills center-block navulista">
-        <li role="presentation" class="active"><a class="navenlace" href="#">All</a></li>
-        <li role="presentation"><a class="navenlace" href="#">Html</a></li>
-        <li role="presentation"><a class="navenlace" href="#">Javascript</a></li>
-        </ul>
-      </div>
       <section class="container containerwork">
         <div class="row">
           <div class="col-md-4 col-xs-12 l">
             <div class="caja caja-imagen">
               <img class="img-responsive photo" src="img/fondo3.jpg">
               <div class="info img-responsive">
-                <h3 class="categoria">Categoria</h3>
-                <p class="proyect"><a href="https://janetquispeu.github.io/escuela_danza/">Escuela de Danza</a></p>
+                <h3 class="categoria">Replica de algunass funciones de la App de Uber| Tema : APIS y jQuery</h3>
+                <p class="proyect"><a href="http://janetquispeu.github.io/app_lyft/">Lyft</a></p>
               </div>
             </div>
           </div>                              
@@ -253,8 +234,8 @@
             <div class="caja caja-imagen">
               <img class="img-responsive photo" src="img/laptop.jpg">
               <div class="info img-responsive">
-                <h3 class="categoria">Categoria</h3>
-                <p class="proyect"><a href="https://janetquispeu.github.io/bicis-locas/">Bicis-Locas</a></p>
+                <h3 class="categoria">Replica de algunass funciones de la aplicación Trello| Tema : DRAG - DROP </h3>
+                <p class="proyect"><a href="https://janetquispeu.github.io/trello/">Trello</a></p>
               </div>
             </div>
           </div>                              
@@ -262,7 +243,7 @@
             <div class="caja caja-imagen">
               <img class="img-responsive photo" src="img/fondo3.jpg">
               <div class="info img-responsive">
-                <h3 class="categoria">Categoria</h3>
+                <h3 class="categoria">Página que permite publicar un mensaje dándole enter, también imprime la hora  | Tema: Javascript</h3>
                 <p class="proyect"><a href="http://janetquispeu.github.io/whatsapp/">Whatsapp</a></p>
               </div>
             </div>
@@ -273,7 +254,7 @@
             <div class="caja caja-imagen">
               <img class="img-responsive photo" src="img/fondo3.jpg">
               <div class="info img-responsive">
-                <h3 class="categoria">Categoria</h3>
+                <h3 class="categoria">Página que permite publicar un mensaje con límite de caracteres , también imprime la hora  | Tema: Javascript</h3>
                 <p class="proyect"><a href="https://janetquispeu.github.io/twitter/">Twitter</a></p>
               </div>
             </div>
@@ -282,8 +263,8 @@
             <div class="caja caja-imagen">
               <img class="img-responsive photo" src="img/laptop.jpg">
               <div class="info img-responsive">
-                <h3 class="categoria">Categoria</h3>
-                <p class="proyect"><a href="https://janetquispeu.github.io/trello/">Trello</a></p>
+                <h3 class="categoria">Página con estilos | Tema : HTML5 y CSS3</h3>
+                <p class="proyect"><a href="https://janetquispeu.github.io/escuela_danza/">Escuela de Danza</a></p>
               </div>
             </div>
           </div>                              
@@ -291,8 +272,9 @@
             <div class="caja caja-imagen">
               <img class="img-responsive photo" src="img/fondo3.jpg">
               <div class="info img-responsive">
-                <h3 class="categoria">Categoria</h3>
+                <h3 class="categoria">Replica de algunass funciones de la App de Uber| Tema : APIS y jQuery</h3>
                 <p class="proyect"><a href="http://janetquispeu.github.io/app_lyft/">Lyft</a></p>
+              </div>
               </div>
             </div>
           </div>
@@ -309,7 +291,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12"> 
             <a class="enlace1" href="#contact"><img class="icon" src="img/whatsapp.png"></a>
             <a class="enlaces1" href="#contact" ><img class="icon" src="img/whatsapprosa.png"></a>
-            <div class="datos">951 - 544 - 219</div>
+            <div class="datos">+51 951544219</div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
             <a class="enlace2" href="#contact" ><img class="icon" src="img/gmail1.png"></a>
