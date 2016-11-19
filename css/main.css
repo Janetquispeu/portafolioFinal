@@ -352,10 +352,10 @@ p>a:hover{
   padding: 1% 5% 1% 5%;
   border-radius: 5px;
   color: white;
+  text-decoration: none;
 }
-.descargar:hover{
+.descargar:link{
   color: white !important;
-  text-decoration: underline;
 }
 .redes-sociales{
   padding-bottom: 12%;
