@@ -346,15 +346,19 @@ p>a:hover{
   color: white !important;
   text-decoration: none;
 }
-.descargar{
+a.descargar{
   font-size: 24px;
   background-color:#E43753;
   padding: 1% 5% 1% 5%;
   border-radius: 5px;
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
 }
-.descargar:link{
+a.descargar:hover{
+  color: white !important;
+  text-decoration: underline;
+}
+a.descargar:link{
   color: white !important;
 }
 .redes-sociales{
