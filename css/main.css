@@ -1,7 +1,25 @@
 @import url('http://fonts.googleapis.com/css?family=Droid+Sans');
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Proza+Libre|Quicksand");
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
 
+::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #E43753;
+}
 * {
   margin: 0;
   padding: 0;
@@ -36,9 +54,9 @@ section.aboutMe {
 
 }
 section.frase {
- padding: 8%;
+ padding:10%;
  color: white;
- background-image: url("../img/codigo.jpg");
+ background-image: url("../img/cafe.jpg");
  background-attachment: fixed;
  background-repeat:no-repeat;
  background-size: cover;
@@ -51,8 +69,6 @@ section.abilities {
  text-align: center;
  background-image: url("../img/fondo3.png");
  background-repeat:repeat;
-
-
  position: relative;
 }
 section.project {
@@ -65,9 +81,15 @@ section.project {
 section.contact {
  background-image: url("../img/fondo2.png");
  background-repeat:repeat;
- padding: 19% 0;
+ padding: 10% 0 3% 0;
  text-align: center;
  position: relative;
+}
+.transparencia{
+  padding: 12%;
+  opacity: 0.5;
+  margin-top: -326px;
+  background-color: #E43753;
 }
 .navBarHome{
   border: none;
@@ -299,15 +321,31 @@ transform: translateX(0px);/*Regresamos a las posiciones originales*/
 transition-delay: 0.1s;
 }
 .categoria {
-  font-size: 21px;
+  padding: 0 7%;
+  font-size: 17px;
   color: #F3A291;
   margin-top: 21%;
   font-weight: bold;
 }
+.demo,.codigo{
+  background-color: #F8F8F8;
+  padding: 2%;
+  border-radius: 5px;
+}
 .proyect {
-    font-size: 25px;
-    color: white;
-    margin-top: 3%;
+  font-size: 18px;
+  color: #F3A291;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 18%;
+
+}
+p.proyect>a{
+  color: #F3A291;
+}
+p.proyect>a:hover{
+  color: #F3A291 !important;
 }
 .caja {
     overflow: hidden;
@@ -362,7 +400,7 @@ a.descargar:link{
   color: white !important;
 }
 .redes-sociales{
-  padding-bottom: 12%;
+  padding-bottom: 6%;
 }
 
 
