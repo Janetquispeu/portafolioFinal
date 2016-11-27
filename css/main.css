@@ -27,6 +27,9 @@
 body {
   font-family: Open Sans, sans-serif !important;
 }
+img{
+  width: 100%;
+}
 nav ul li a {
   display: block;
   padding: 0px 40px;
@@ -48,20 +51,18 @@ section.home {
 }
 section.aboutMe {
  background-image: url("../img/fondo1.png");
- padding: 13% 5% 13% 0;
+ padding: 5% 0% 13% 0;
  text-align: center;
  position: relative; 
-
 }
 section.frase {
- padding: 5% 5% 10% 5%;
- height: 150px;
+ height: 202px;
  color: white;
  background-image: url("../img/perrito.jfif");
- background-attachment: fixed;
  background-size: cover;
  font-size: 280%;
  font-weight: bold;
+ position: relative;
 }
 section.abilities {
  opacity: 0.8;
@@ -71,11 +72,6 @@ section.abilities {
  background-repeat:repeat;
  background-size: cover;
  position: relative;
-}
-section.hobbies{
-  padding: 14%;
-  background-image: url("../img/particulas.jpg");
-  background-repeat:repeat;
 }
 section.project {
  background-color: white;
@@ -87,15 +83,9 @@ section.project {
 section.contact {
  background-image: url("../img/fondo2.png");
  background-repeat:repeat;
- padding: 10% 0 3% 0;
+ padding: 10% 0 6% 0;
  text-align: center;
  position: relative;
-}
-.transparencia{
-  height: 202px;
-  opacity: 0.5;
-  margin-top: -202px;
-  background-color: #E43753;
 }
 .navBarHome{
   border: none;
@@ -116,7 +106,7 @@ section.contact {
   padding: 4% 2%;
   position: absolute;
   color: white;
-  margin-top: -402px;
+  top: 40%;
   background-color: #E43753;
   opacity: 0.8;
 }
@@ -127,7 +117,7 @@ section.contact {
   padding: 25px 39px !important;
 }
 .aboutmeh1{
-  padding-bottom: 8%;
+  padding: 8% 0;
   font-family: "Proza Libre", serif;
   font-size: 58px;
   font-weight: bolder;
@@ -143,8 +133,29 @@ section.contact {
   line-height: 171%;
   font-family: "Proza Libre", serif;
 }
+.transparencia{
+  height: 202px;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #E43753;
+}
 .autor{
-  float: right;
+  right: 0;
+  position: absolute;
+}
+.containerCarusel{
+  width: 100%;
+  height: auto;
+  padding-top: 11%;
+}
+.containerFrase{
+  width: 85%;
+  padding: 5% 0% 4% 12%;
+  position: relative;
+  text-align: right;
 }
 .skills{
   transform: rotate(-20deg);
@@ -173,10 +184,14 @@ section.contact {
   display: inline-block;
 }
 .circuloContainer{
+  display: block;
   position: absolute;
   width: 72%;
   margin-top: 0%;
   margin-left: 2%;
+}
+.circuloContainerQueries{
+  display: none;
 }
 .circulohtml{
   margin-top: 3%;
@@ -234,6 +249,7 @@ section.contact {
   font-size: 20px;
   color: white;
   font-weight: bold;
+  text-shadow: 4px 4px 4px black;
   font-family: "Quicksand", serif;
 }
 .titleContact{
@@ -413,36 +429,149 @@ a.descargar:link{
 
 
 /*Media  queries*/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1024px) {
+  section.abilities{
+    padding: 2%;
+  }
+  .navBarHeaderNombre {
+    padding-right: 11%;
+  }
   .aLista{
     font-size: 133%;
     padding: 25px 35px !important;
+  }
+  .tl{
+    top: 38%;
+    padding: 2% 0%;
+    font-size: 63px;
+  }
+  .tlt{
+    padding-right: 7%;
+    padding-left: 11%;
+  }
+  .containerCarusel {
+    padding-top: 26%;
+  }
+  .circuloContainer{
+    display: none;
+  }
+  .circuloContainerQueries{
+    display: block;
+    padding-top: 8%;
+  }
+  .porcentaje{
+    display: block;
+    padding-top: 3%;
+    text-align: right;
+  }
+  .porcentaje1{
+    text-align: left;
+  }
+  .skills{
+    left: 22%;
+    top: 0;
+    margin: 0;
+    transform: inherit;
+  }
+  .datos{
+    padding: 0 0 12% 0;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   section.home {
     height: 93vh;
   }
-  .tl{
-    font-size: 53px;
-    bottom: 25%;
+  section.abilities{
+    padding: 2%;
+  }
+  .navBarHeaderNombre {
+    padding-left: 3%;
+    padding-right: 3%;
   }
   .aLista{
-    font-size: 131%;
-    padding: 25px 14px !important;
+    font-size: 133%;
+    padding: 25px 30px !important;
+  }
+  .tl{
+    font-size: 53px;
+  }
+  .circuloContainer{
+    display: none;
+  }
+  .circuloContainerQueries{
+    display: block;
+    padding-top: 8%;
+  }
+  .containerCarusel {
+    width: 98%;
+    padding-top: 11%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skills{
+    left: 37%;
+    top: 0;
+    margin: 0;
+    transform: inherit;
+  }
+  .porcentaje{
+    padding-bottom: 10%;
+  }
+  .datos{
+    padding: 0 0 12% 0;
   }
 
 }
-@media (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
   section.home {
     height: 66vh;
+  }
+  section.abilities{
+    padding: 2%;
+  }
+  .navBarHeaderNombre {
+    padding: 1% 13% 3% 13%;
   }
   .tl{
     font-size: 44px;
     bottom: 24%;
   }
+  .containerFrase {
+    width: 93%;
+    padding: 11% 0% 0% 7%;
+    font-size: 28px;
+  }
+  .circuloContainer{
+    display: none;
+  }
+  .circuloContainerQueries{
+    display: block;
+    padding-top: 8%;
+  }
+  .skills{
+    left: 35%;
+    top: 0;
+    margin: 0;
+    transform: inherit;
+  }
+  .porcentaje{
+    padding: 5% 0;
+  }
+  .containerwork {
+    padding:0 4% 0 4%;
+  }
+  .contactame{
+    font-size: 18px;
+  }
+  .datos{
+    font-size: 18px;
+    padding: 5% 0 18% 0;
+  }
 }
 @media (max-width: 480px) {
+  .navBarHeaderNombre {
+    padding: 0 0% 0 7%;
+  }
   .aNombre{
     padding-bottom: 13%;
   }
@@ -450,19 +579,28 @@ a.descargar:link{
     height: 60vh;
   }
   .tl{
-    font-size: 37px;
-    bottom: 29%;
+    font-size: 30px;
   }
   .tlt{
     padding-right: 6%;
-    padding-left: 11%;
-    font-size: 19px;
+    padding-left: 9%;
+    font-size: 15px;
+  }
+  .aboutmeh1 {
+    font-size:37px; 
+  }
+  .containerCarusel {
+    width: 100%;
+    padding-left: 1%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .circuloContainer{
     display: none;
   }
-  .colFoto{
-    padding: 6% 5% 0 10%;
+  .circuloContainerQueries{
+    display: block;
+    padding-top: 22%;
   }
   section.frase{
     padding: 14%;
@@ -472,8 +610,36 @@ a.descargar:link{
     padding: 0 10%;
   }
   .datos{
+    font-size: 15px;
     padding: 0 0 17% 0;
   }
-
+  .curso{
+    font-size: 17px;
+    padding-bottom: 28%;
+  }
+  .contactame{
+    font-size: 15px;
+  }
+  .project{
+    font-size: 30px;
+  }
+  .skills{
+    font-size: 32px;
+    left: 27%;
+    top: 0;
+    margin: 0;
+    transform: inherit;
+  }
+  .containerFrase {
+    width: 100%;
+    padding: 0%;
+    font-size: 28px;
+  }
+  .titleContact{
+    font-size: 27px;
+  }
+  a.descargar{
+    font-size: 20px;
+  }
 }
 
