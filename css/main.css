@@ -83,7 +83,7 @@ section.project {
 section.contact {
  background-image: url("../img/fondo2.png");
  background-repeat:repeat;
- padding: 10% 0 6% 0;
+ padding: 13% 0 6% 0;
  text-align: center;
  position: relative;
 }
@@ -312,7 +312,8 @@ section.contact {
   font-size: 50%;
 }
 .caja-imagen img {
-transition: all 0.4s linear;
+  height: 250px;
+  transition: all 0.4s linear;
 }
 .caja-imagen .info {
 opacity: 0.5;
