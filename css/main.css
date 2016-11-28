@@ -153,9 +153,12 @@ section.contact {
 }
 .containerFrase{
   width: 85%;
-  padding: 5% 0% 4% 12%;
+  padding: 5% 0;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   text-align: right;
+  font-family: "Proza Libre", serif;
 }
 .skills{
   transform: rotate(-20deg);
@@ -479,7 +482,7 @@ a.descargar:link{
 }
 @media (min-width: 768px) and (max-width: 991px) {
   section.home {
-    height: 93vh;
+    height: 100vh;
   }
   section.abilities{
     padding: 2%;
@@ -495,6 +498,9 @@ a.descargar:link{
   .tl{
     font-size: 53px;
   }
+  .aboutmeh1 {
+    font-size: 45px;
+  }
   .circuloContainer{
     display: none;
   }
@@ -503,19 +509,33 @@ a.descargar:link{
     padding-top: 8%;
   }
   .containerCarusel {
-    width: 98%;
+    width: 65%;
     padding-top: 11%;
     margin-left: auto;
     margin-right: auto;
   }
   .skills{
+    font-size: 45px;
     left: 37%;
     top: 0;
     margin: 0;
     transform: inherit;
   }
+  .project{
+    font-size: 45px;
+  }
+  .titleContact{
+    font-size: 45px;
+  }
   .porcentaje{
     padding-bottom: 10%;
+  }
+  .contactame{
+    font-size: 21px;
+    padding: 5% 0 12% 0;
+  }
+  .containerwork {
+    width: 70%;
   }
   .datos{
     padding: 0 0 12% 0;
@@ -524,7 +544,7 @@ a.descargar:link{
 }
 @media (min-width: 481px) and (max-width: 767px) {
   section.home {
-    height: 66vh;
+    height: 100vh;
   }
   section.abilities{
     padding: 2%;
@@ -534,7 +554,18 @@ a.descargar:link{
   }
   .tl{
     font-size: 44px;
-    bottom: 24%;
+  }
+  .aboutmeh1 {
+    font-size: 43px;
+  }
+  .tlt{
+    padding: 0 10% 0 11%;
+    font-size: 19px;
+  }
+  .containerCarusel {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .containerFrase {
     width: 93%;
@@ -546,26 +577,36 @@ a.descargar:link{
   }
   .circuloContainerQueries{
     display: block;
-    padding-top: 8%;
+    padding-top: 15%;
   }
   .skills{
     left: 35%;
     top: 0;
     margin: 0;
+    font-size: 36px;
+    padding: 2%;
     transform: inherit;
+  }
+  .project{
+    font-size: 30px;
   }
   .porcentaje{
     padding: 5% 0;
   }
   .containerwork {
-    padding:0 4% 0 4%;
+    width: 85%;
+    padding:4% 4% 0 4%;
   }
   .contactame{
     font-size: 18px;
   }
+  .titleContact {
+    font-size: 32px;
+    padding: 4% 0;
+  }
   .datos{
     font-size: 18px;
-    padding: 5% 0 18% 0;
+    padding: 2% 0 12% 0;
   }
 }
 @media (max-width: 480px) {
@@ -575,11 +616,18 @@ a.descargar:link{
   .aNombre{
     padding-bottom: 13%;
   }
+  section.frase{
+    padding: 19% 7% 4% 7%
+  }
   section.home {
-    height: 60vh;
+    height: 100vh;
+  }
+  section.abilities {
+    padding: 2%;
   }
   .tl{
-    font-size: 30px;
+    font-size: 43px;
+    top: 38%;
   }
   .tlt{
     padding-right: 6%;
@@ -603,15 +651,15 @@ a.descargar:link{
     padding-top: 22%;
   }
   section.frase{
-    padding: 14%;
+    padding: 17% 4%;
   }
   .containerwork {
     margin-top: 23%;
     padding: 0 10%;
   }
   .datos{
-    font-size: 15px;
-    padding: 0 0 17% 0;
+    font-size: 13px;
+    padding: 2% 0 17% 0;
   }
   .curso{
     font-size: 17px;
@@ -619,6 +667,7 @@ a.descargar:link{
   }
   .contactame{
     font-size: 15px;
+    padding: 7% 2%;
   }
   .project{
     font-size: 30px;
