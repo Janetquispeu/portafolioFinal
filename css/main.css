@@ -679,6 +679,10 @@ a.descargar:link{
     margin: 0;
     transform: inherit;
   }
+  .categoria{
+    margin-top: 15%;
+    font-size: 14px;
+  }
   .containerFrase {
     width: 100%;
     padding: 0%;
