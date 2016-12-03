@@ -147,9 +147,10 @@ section.contact {
   position: absolute;
 }
 .containerCarusel{
-  width: 100%;
+  width: 80%;
   height: auto;
-  padding-top: 11%;
+  padding-top: 32%;
+  margin-left: 5%;
 }
 .containerFrase{
   width: 85%;
@@ -189,9 +190,9 @@ section.contact {
 .circuloContainer{
   display: block;
   position: absolute;
-  width: 72%;
-  margin-top: 0%;
-  margin-left: 2%;
+  width: 75%;
+  margin-top: -2%;
+  margin-left: 0;
 }
 .circuloContainerQueries{
   display: none;
@@ -452,9 +453,6 @@ a.descargar:link{
   .tlt{
     padding-right: 7%;
     padding-left: 11%;
-  }
-  .containerCarusel {
-    padding-top: 26%;
   }
   .circuloContainer{
     display: none;
