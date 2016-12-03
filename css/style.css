@@ -39,6 +39,7 @@ body{
 }
 
 canvas{
+  height: 100vh !important;
   display:block;
   vertical-align:bottom;
 }

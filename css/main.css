@@ -46,7 +46,6 @@ a:hover{
 }
 section.home {
   text-align: center;
-  overflow-y: hidden;
   position: relative;
 }
 section.aboutMe {
