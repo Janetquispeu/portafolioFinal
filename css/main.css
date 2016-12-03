@@ -317,37 +317,36 @@ section.contact {
   transition: all 0.4s linear;
 }
 .caja-imagen .info {
-opacity: 0.5;
-background-color: #E43753;
-transition: all 0.3s ease-in-out;
-background-size: cover;
+  opacity: 0.5;
+  background-color: #E43753;
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
 }
 
 .caja-imagen h3 {
-transform: translateY(-200px);/*Desplazamos a la izquierda*/
-opacity: 0;
-transition: all 0.7s ease-in-out;
-text-align: center;
+  transform: translateY(-200px);/*Desplazamos a la izquierda*/
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  text-align: center;
 }
 
 .caja-imagen p {
-transform: translateY(-200px);/*Desplazamos a la derecha*/
-opacity: 0;
-transition: all 0.4s linear;
-text-align: center;
+  transform: translateY(-200px);/*Desplazamos a la derecha*/
+  opacity: 0;
+  transition: all 0.4s linear;
+  text-align: center;
 }
 
 .caja-imagen:hover .info {
-opacity: 1;
+  opacity: 1;
 }
 
-.caja-imagen:hover h3,
-.caja-imagen:hover p {
-opacity: 1;
-transform: translateX(0px);/*Regresamos a las posiciones originales*/
+.caja-imagen:hover h3,.caja-imagen:hover p {
+  opacity: 1;
+  transform: translateX(0px);/*Regresamos a las posiciones originales*/
 }
 .caja-imagen:hover p {
-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 .categoria {
   padding: 0 7%;
