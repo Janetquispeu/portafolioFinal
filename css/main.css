@@ -30,6 +30,9 @@ body {
 img{
   width: 100%;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  overflow-y: hidden;
+}
 nav ul li a {
   display: block;
   padding: 0px 40px;
@@ -437,7 +440,8 @@ a.descargar:link{
     padding: 2%;
   }
   .navBarHeaderNombre {
-    padding-right: 11%;
+    padding-right: 5%;
+    padding-left: 7%;
   }
   .aLista{
     font-size: 133%;
@@ -484,13 +488,19 @@ a.descargar:link{
   section.abilities{
     padding: 2%;
   }
+  .aNombre{
+    font-size: 28px;
+  }
   .navBarHeaderNombre {
     padding-left: 3%;
     padding-right: 3%;
   }
+  .ul-nav{
+    float: right;
+  }
   .aLista{
     font-size: 133%;
-    padding: 25px 30px !important;
+    padding: 25px 23px !important;
   }
   .tl{
     font-size: 53px;
