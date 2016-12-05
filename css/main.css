@@ -128,8 +128,8 @@ section.contact {
 
 }
 .tlt{
-  padding-right: 14%;
-  padding-left: 19%;
+  padding-right: 6%;
+  padding-left: 15%;
   font-size: 21px;
   text-align: justify;
   line-height: 171%;
@@ -149,10 +149,10 @@ section.contact {
   position: absolute;
 }
 .containerCarusel{
-  width: 80%;
+  width: 65%;
   height: auto;
-  padding-top: 32%;
-  margin-left: 5%;
+  padding-top: 28%;
+  margin-left: 10%;
 }
 .containerFrase{
   width: 85%;
@@ -315,7 +315,7 @@ section.contact {
   font-size: 50%;
 }
 .caja-imagen img {
-  height: 250px;
+  height: 285px;
   transition: all 0.4s linear;
 }
 .caja-imagen .info {
