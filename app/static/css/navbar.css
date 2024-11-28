@@ -1,0 +1,54 @@
+html, body, * {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar.fixed-top.navbar-expand-lg.navbar-light {
+  background-color: #00001f;
+  box-shadow: rgb(235 224 224 / 40%) 0px 3px 25px;
+  padding: 0;
+  width: auto;
+}
+
+.navbar-brand {
+  background-color: #00001f;
+  color: #18f1b3!important;
+  margin-right: 0;
+  padding: 20px 5rem;
+}
+
+.navbar-collapse {
+  background-color: #00001f;
+  color: #FFFFFF!important;
+}
+
+.navbar-toggler {
+  margin-right: 5rem;
+}
+
+li.nav-item {
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  transition: background-color 0.4s ease;
+}
+
+.navbar-collapse ul li.nav-item.active .nav-link {
+  color: #ec4699;
+}
+
+.navbar-collapse ul li.nav-item .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-collapse ul li.nav-item .nav-link:hover {
+  color: #ec4699;
+}
+.navbar-light .navbar-toggler {
+  border-color: #FFFFFF;
+}
+
+.navbar-light .navbar-toggler-icon  {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
