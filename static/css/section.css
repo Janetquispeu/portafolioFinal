@@ -1,0 +1,187 @@
+.b-home {
+  position: relative;
+}
+
+.b-home--title {
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 40px;;
+  left: 0;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 38%;
+  width: fit-content;
+}
+.b-home--title span:first-child {
+  display: block;
+}
+.b-home--title span:nth-child(2) {
+  color: #ec4699;
+  font-size: 40px;
+}
+.b-home--title span:last-child {
+  color: #18f1b3;
+  display: block;
+  font-size: 40px;
+}
+/* .b-about-me */
+.b-about-me, .b-skill {
+  background-color: #00001f;
+  padding: 100px 50px 0;
+  position: relative;
+}
+
+hr.b-line{
+  border-top: 1px solid #FFFFFF;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.b-title-item {
+  background-color: #00001f;
+  color: #18f1b3;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  text-align: center;
+  top: 80px;
+  width: 100%;
+}
+
+.b-about-me .col-md  {
+  border-radius: 50%;
+  height: 220px;
+  text-align: center;
+  width: 220px;
+}
+.b-about-me .b-about-me-box {
+  max-width: 1280px;
+  margin: auto;
+  padding-top: 80px;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.b-about-me .b-about-me-text {
+  color: #FFFFFF;
+  height: fit-content;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.b-about-me .b-about-me-text span {
+  display: inline-block;
+}
+
+.b-about-me .col-md img {
+  border-radius: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* .b-phrase */
+.b-phrase {
+  background-image: url(../../assets/img/dog.jfif);
+  background-position-y: center;
+  background-size: cover;
+  height: 120px;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.b-phrase .b-phrase--shadow {
+  background-color: #00001f;
+  height: 120px;
+  left: 0;;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.b-phrase .b-phrase--marquee {
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 25px;
+  height: 120px;
+  left: 0;
+  margin-inline: auto;
+  max-width: 1280px;
+  padding: 30px 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.b-phrase .b-phrase-autor {
+  color: #FFFFFF;
+  text-align: right;
+  width: 100%;
+}
+
+.b-skill {
+  background-color: #00001f;
+}
+
+.b-skill .b-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 100px;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.b-skill .b-skill-item {
+  align-items: center;
+  /* border-image: linear-gradient(to left, rgba(0, 0, 0, 1) 1%, #ec4699 50%, rgba(0, 0, 0, 1) 100%) 100% 0 100% 0/1px 0 0px 0 stretch; */
+  border-radius: .75rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #050c47;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+  width: 280px;
+}
+
+.b-skill .b-skill-img {
+  width: 40px;
+  height: 40px;
+}
+
+.b-skill .b-skill-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.b-skill .b-skill-img .b-skill-img-filter {
+  filter: invert(1);
+}
+
+.b-skill .b-skill-progress {
+  width: 80%;
+}
+
+.b-skill .b-skill-progress .progress-bar {
+  background: #ec4699;
+}
+
+.b-project {
+  background-color: #00001f;
+}
+
+.b-contact {
+  background-color: #00001f;
+}

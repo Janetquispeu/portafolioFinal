@@ -1,0 +1,12 @@
+canvas{
+  height: 100vh !important;
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js{
+  background-color: #00001f;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
