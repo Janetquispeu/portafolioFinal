@@ -1,8 +1,8 @@
-.b-about-me .col-md  {
+.b-about-me .b-about-img-box  {
   border-radius: 50%;
   height: 220px;
   text-align: center;
-  width: 220px;
+  width: 50%;
 }
 
 .b-about-me .b-about-me-box {
@@ -10,7 +10,6 @@
   margin: auto;
   max-width: 1280px;
   padding-bottom: 100px;
-  padding-top: 80px;
 }
 
 .b-about-me .b-about-me-text {
@@ -19,14 +18,32 @@
   letter-spacing: 1px;
   line-height: 30px;
   text-align: justify;
+  width: 50%;
+}
+.b-about-me-text .b-title-item {
+  padding-bottom: 45px;
+  text-align: left;
 }
 
 .b-about-me .b-about-me-text span {
   display: inline-block;
 }
 
-.b-about-me .col-md img {
+.b-about-me .b-about-img-box img {
   border-radius: 10px;
-  max-height: 100%;
-  max-width: 100%;
+}
+
+@media (min-width: 414px) and (max-width: 991px) {
+  .b-about-me .b-about-me-box {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .b-about-me .b-about-me-text {
+    width: 80%;
+  }
+
+  .b-about-me .b-about-img-box {
+    width: 100%;
+  }
 }

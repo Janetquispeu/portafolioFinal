@@ -17,6 +17,7 @@
 
 .b-contact-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   justify-content: space-evenly;
   padding: 25px;
@@ -57,4 +58,11 @@
 .b-download-box {
   padding: 40px;
   text-align: center;
+}
+
+@media (min-width: 414px) and (max-width: 991px) {
+  .b-contact-text {
+    margin: auto;
+    max-width: 100%;
+  }
 }
