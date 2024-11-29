@@ -1,0 +1,39 @@
+.b-phrase {
+  background-image: url(../../assets/img/dog.jfif);
+  background-position-y: center;
+  background-size: cover;
+  height: 120px;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.b-phrase .b-phrase--shadow {
+  background-color: #00001f;
+  height: 120px;
+  left: 0;;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.b-phrase .b-phrase--marquee {
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 25px;
+  height: 120px;
+  left: 0;
+  margin-inline: auto;
+  max-width: 1280px;
+  padding: 30px 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.b-phrase .b-phrase-autor {
+  color: #FFFFFF;
+  text-align: right;
+  width: 100%;
+}
