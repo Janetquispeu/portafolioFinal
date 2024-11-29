@@ -1,0 +1,32 @@
+.b-about-me .col-md  {
+  border-radius: 50%;
+  height: 220px;
+  text-align: center;
+  width: 220px;
+}
+
+.b-about-me .b-about-me-box {
+  align-items: center;
+  margin: auto;
+  max-width: 1280px;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+.b-about-me .b-about-me-text {
+  color: #FFFFFF;
+  height: fit-content;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.b-about-me .b-about-me-text span {
+  display: inline-block;
+}
+
+.b-about-me .col-md img {
+  border-radius: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}

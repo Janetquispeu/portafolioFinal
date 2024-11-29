@@ -1,0 +1,47 @@
+.b-skill {
+  background-color: #00001f;
+}
+
+.b-skill .b-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 50px;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.b-skill .b-skill-item {
+  align-items: center;
+  /* border-image: linear-gradient(to left, rgba(0, 0, 0, 1) 1%, #ec4699 50%, rgba(0, 0, 0, 1) 100%) 100% 0 100% 0/1px 0 0px 0 stretch; */
+  border-radius: .75rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #050c47;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+  width: 280px;
+}
+
+.b-skill .b-skill-img {
+  width: 40px;
+  height: 40px;
+}
+
+.b-skill .b-skill-img .b-skill-img-filter {
+  filter: invert(1);
+}
+
+.b-skill .b-skill-progress {
+  width: 80%;
+}
+
+.b-skill .b-skill-progress .progress-bar {
+  background-color: #FBD34C;
+}

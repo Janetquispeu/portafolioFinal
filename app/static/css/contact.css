@@ -1,0 +1,60 @@
+.b-contact-box {
+  color: #FFFFFF;
+  margin: auto;
+  max-width: 1280px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.b-contact-text {
+  margin: auto;
+  max-width: 850px;
+}
+
+.b-contact-text span {
+  display: inline-block;
+}
+
+.b-contact-list {
+  display: flex;
+  gap: 25px;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.b-contact-img {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.b-contact-item {
+  align-items: center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.b-contact-item:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.b-download {
+  background: #0c7c5c;
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 20px 30px;
+}
+
+.b-download:hover {
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.b-download-box {
+  padding: 40px;
+  text-align: center;
+}
