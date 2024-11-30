@@ -33,7 +33,7 @@
   border-radius: 10px;
 }
 
-@media (min-width: 414px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .b-about-me .b-about-me-box {
     flex-direction: column-reverse;
     gap: 40px;
