@@ -55,7 +55,6 @@
 .b-project-item .b-project-item-description {
   opacity: 0;
   text-align: center;
-  transform: translateY(-200px);
   transition: all 0.7s ease-in-out;
 }
 
@@ -65,7 +64,6 @@
   justify-content: center;
   opacity: 0;
   text-align: center;
-  transform: translateY(-200px);
   transition: all 0.4s linear;
 }
 

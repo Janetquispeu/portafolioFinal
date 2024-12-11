@@ -9,10 +9,6 @@ html, body, * {
   padding: 0;
 }
 
-body {
-  min-width: 464px;
-}
-
 .b-about-me, .b-skill, .b-project, .b-hobby, .b-contact {
   background-color: #00001f;
   padding: 100px 50px 0;
