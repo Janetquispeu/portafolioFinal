@@ -16,6 +16,9 @@
   top: 38%;
   width: fit-content;
 }
+.b-home--title b {
+  color: #FBD34C;
+}
 .b-home--title span:first-child {
   display: block;
 }
