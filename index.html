@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/grafico-circular.css">
-    <link rel="stylesheet" type="text/css" href="icomoon/style.css">
-    <link rel="stylesheet" media="screen" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/particles.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/common.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/home.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/about.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/phrase.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/skill.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/project.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/hobby.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/contact.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="ico.ico">
     <title>Portafolio</title>
   </head>
-  <body onload="hideLoader()">
-    <div id="floatingBarsG">
+  <body>
+    <!-- <div id="floatingBarsG">
       <div class="blockG" id="rotateG_01"></div>
       <div class="blockG" id="rotateG_02"></div>
       <div class="blockG" id="rotateG_03"></div>
@@ -23,438 +27,422 @@
       <div class="blockG" id="rotateG_06"></div>
       <div class="blockG" id="rotateG_07"></div>
       <div class="blockG" id="rotateG_08"></div>
-    </div>
-    <nav class=" navbar navbar-default navbar-fixed-top navBarHome">
-      <div class="container-fluid">
-        <div class="navbar-header navBarHeaderNombre">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand aNombre" href="#">Janet Quispe</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-center ul-nav">
-            <li><a href="#" class="home-marker active aLista">Home </a></li>
-            <li><a href="#aboutMe" class="aboutMe-marker  aLista">About me </a></li>
-            <li><a href="#skill" class="abilities-marker aLista">Skills </a></li>
-            <li><a href="#project" class="project-marker aLista">Projects</a></li>
-            <li><a href="#contact" class="contact-marker aLista">Contact</a></li>
-          </ul>
-        </div>
+    </div> -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Janet Quispe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobby">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
-    <section class="home">
+    <section class="b-home">
       <div id="particles-js">
       </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="tl col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">Janet Quispe Uñapillco</div>
-        </div>
+      <div class="b-home--title">
+        <span>Hello,</span>
+        I'm <span>JANET</span>,&nbsp; I'm a professional
+        <span><b><</b> Frontend Developer <b>/></b></span>
       </div>
     </section>
+    <hr class="b-line"/>
     <a name="aboutMe"></a>
-    <section class="aboutMe">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-7 col-md-8 col-sm-12">
-            <h1 class="aboutmeh1">Who am I?</h1>
-            <p class="tlt">Hello..! My name is Janet. I am 23 years old. I'm a Front-end Developer Jr. , graduated from Laboratoria and a Systems Engineering student. I'm curious person and that is what made me explore the world of programming. At first when I started to study in Laboratoria, I thought I would only learn how to create websites, but as the  time passed I saw that there was a wide world to know. I want to be a Back-end Developer to complement my Front-end Developer career.
-            </p>
-          </div>
-          <div class="col-lg-5 col-md-4 col-sm-12">
-            <div class="containerCarusel">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="img/perfil9.jpg" alt="driver">
-                    <div class="carousel-caption">
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="img/laboratoria2.png" alt="laptop">
-                    <div class="carousel-caption">
-                    </div>
-                  </div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-          </div>
+    <section class="b-about-me container-fluid">
+      <div class="row">
+        <span class="b-title-item">Who I am?</span>
+      </div>
+      <div class="row b-about-me-box">
+        <div class="col-md mx-auto">
+          <img class="mx-auto" src="./assets/img/perfil.jpg" alt="perfil" />
+        </div>
+        <div class="col-md mx-auto b-about-me-text">
+          <span>
+            Hello..! My name is Janet. I'm a professional and enthusiastic programmer.
+            I'm a curious person and I love learning and exploring new technologies.
+          </span>
+          <span>
+            I have worked on innovative projects
+            for organizations such as the Inter-American Development Bank (IDB) and E-commerces of Perú, applying good practices in code and Agile Methodology.
+            I'm appasionate about technology. I seek to continue growing in a collaborative and innovative environment.
+          </span>
         </div>
       </div>
     </section>
-    <section class="frase">
-      <div class="transparencia"></div>
-      <div class="containerFrase">
+    <section class="b-phrase container-fluid">
+      <div class="row b-phrase--shadow"></div>
+      <div class="row b-phrase--marquee">
         <marquee>"The only way to make a work is loving what you do"</marquee>
-        <div class="autor">Steve Jobs</div> 
+        <div class="b-phrase-autor">Steve Jobs</div> 
       </div>
     </section>
     <a name="skill"></a>
-    <section class="abilities">
-      <div>
-        <div class="row rowskill">
-          <div class="col-lg-4 col-lg-offset-3 col-md-4 col-md-offset-4">
-            <div class="skills">My Skills</div>
-          </div>
-        </div>
+    <section class="b-skill container-fluid">
+      <div class="row">
+        <span class="b-title-item">Skills</span>
       </div>
-      <div class="circuloContainer">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-4 col-sm-12 show">
-            <div class="clearfix circulohtml">
-              <div class="c100 p90">
-                <span>90%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso1">HTML5/CSS3</div>
-            </div>
-            <div class="clearfix circulocss">
-              <div class="c100 p80">
-                <span>50%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso2">Sass</div>
-            </div>
-            <div class="clearfix circulojs">
-              <div class="c100 p80">
-                <span>70%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso3">Javascript</div>
-            </div>
-            <div class="clearfix circulojquery">
-              <div class="c100 p75">
-                <span>70%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso4">Jquery</div>
-            </div>
-            <div class="clearfix circulobootstrap">
-              <div class="c100 p78">
-                <span>70%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso5">Bootstrap</div>
-            </div>
-            <div class="clearfix circulomaterialize">
-              <div class="c100 p75">
-                <span>70%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso6">Materialize</div>
-            </div>
-            <div class="clearfix circulogithub">
-              <div class="c100 p80">
-                <span>50%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso7">Git</div>
-            </div>
-            <div class="clearfix circulomysql">
-              <div class="c100 p80">
-                <span>70%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso8">SQL</div>
-            </div>
-            <div class="clearfix circulojava">
-              <div class="c100 p60">
-                <span>50%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso9">Java</div>
-            </div>
-            <div class="clearfix circuloingles">
-              <div class="c100 p55">
-                <span style="font-size: 16px; margin-top: 16%;margin-left: 9%;">Intermediate</span>
-                <div class="slice">
-                  <div class="bar barcolor"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso curso10">English</div>
-            </div>
+      <ul class="b-skill-list">
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="HTML5" src="../app/assets/icon/html.svg" loading="lazy" />
           </div>
-        </div>
-      </div>
-      <div class="circuloContainerQueries">
-        <div class="row rowskill">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="porcentaje">
-              <div class="clearfix">
-              <div class="c100 p90">
-                <span>90%</span>
-                <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-                </div>
-              </div>
-              <div class="curso">HTML5/CSS3</div>
-              </div>
-            </div>
-            <div class="porcentaje">
-              <div class="clearfix">
-                <div class="c100 p80">
-                  <span>50%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">Sass</div>
-              </div>
-            </div>
-            <div class="porcentaje">
-              <div class="clearfix">
-                <div class="c100 p80">
-                  <span>70%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">Javascript</div>
-              </div>
-            </div>
-            <div class="porcentaje">
-              <div class="clearfix">
-                <div class="c100 p75">
-                  <span>70%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso curso4">Jquery</div>
-              </div>
-            </div>
-            <div class="porcentaje">
-              <div class="clearfix">
-                <div class="c100 p78">
-                  <span>70%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">Bootstrap</div>
-              </div>
-            </div>
+          <div>HTML5</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="porcentaje1 porcentaje">
-              <div class="clearfix">
-                <div class="c100 p75">
-                  <span>70%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">Materialize</div>
-              </div>
-            </div>
-            <div class="porcentaje1 porcentaje">
-              <div class="clearfix">
-                <div class="c100 p80">
-                  <span>50%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">Git</div>
-              </div>
-            </div>
-            <div class="porcentaje1 porcentaje">
-              <div class="clearfix">
-                <div class="c100 p80">
-                  <span>70%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">SQL</div>
-              </div>
-            </div>
-            <div class="porcentaje1 porcentaje">
-              <div class="clearfix">
-                <div class="c100 p60">
-                  <span>50%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">Java</div>
-              </div>
-            </div>
-            <div class="porcentaje1 porcentaje">
-              <div class="clearfix">
-                <div class="c100 p55">
-                  <span style="font-size: 16px; margin-top: 16%;margin-left: 9%;">Intermediate</span>
-                  <div class="slice">
-                    <div class="bar barcolor"></div>
-                    <div class="fill"></div>
-                  </div>
-                </div>
-                <div class="curso">English</div>
-              </div>
-            </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="CSS" src="../app/assets/icon/css.svg" loading="lazy" />
           </div>
-        </div>
-      </div>
+          <div>CSS</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="JS" src="../app/assets/icon/js.svg" loading="lazy" />
+          </div>
+          <div>JS</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="git" src="../app/assets/icon/git.svg" loading="lazy" />
+          </div>
+          <div>Git</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="bootstrap" src="../app/assets/icon/bootstrap.svg" loading="lazy" />
+          </div>
+          <div>Bootstrap</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="react" src="../app/assets/icon/react.svg" loading="lazy" />
+          </div>
+          <div>React JS</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="Redux" src="../app/assets/icon/redux.svg" loading="lazy" />
+          </div>
+          <div>Redux</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="Material UI" src="../app/assets/icon/material-ui.svg" loading="lazy" />
+          </div>
+          <div>Material UI</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img class="b-skill-img-filter" alt="Styled Components" src="../app/assets/icon/styled-components.svg" loading="lazy" />
+          </div>
+          <div>Styled Components</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="Typescript" src="../app/assets/icon/typescript.svg" loading="lazy" />
+          </div>
+          <div>Typescript</div>
+          <div>Avanzado</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="Jest" src="../app/assets/icon/jest.svg" loading="lazy" />
+          </div>
+          <div>Jest</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="MySQL" src="../app/assets/icon/mysql.svg" loading="lazy" />
+          </div>
+          <div>MySQL</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="Node JS" src="../app/assets/icon/nodejs.svg" loading="lazy" />
+          </div>
+          <div>Node JS</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+        <li class="b-skill-item">
+          <div class="b-skill-img">
+            <img alt="Nest JS" src="../app/assets/icon/nestjs.svg" loading="lazy" />
+          </div>
+          <div>Nest JS</div>
+          <div>Intermedio</div>
+          <div class="progress b-skill-progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </li>
+      </ul>
     </section>
     <a name="project"></a>
-    <section class="project">
-      <div class="project">Projects</div>
-      <section class="container containerwork">
-        <div class="row">
-          <div class="col-md-4 col-xs-12 l">
-            <div class="caja caja-imagen">
-              <img class="img-responsive photo" src="img/instagram-app.png">
-              <div class="info img-responsive">
-                <h3 class="categoria">This page has the functionality to publish images in real time as well as the instagram app. | Fb API and Socket IO </h3>
-                <p class="proyect"><a href="https://github.com/Janetquispeu/instagram" class="codigo">View Github</a>
-                <a href="https://app-instagram.herokuapp.com/" class="demo">View Demo</a></p>
-              </div>
-            </div>
-          </div>                              
-          <div class="col-md-4 col-xs-12 l">
-            <div class="caja caja-imagen">
-              <img class="img-responsive photo" src="img/music.png">
-              <div class="info img-responsive">
-                <h3 class="categoria">The website can log in to the user and also find the album you want. Through the microphone or writing. Fb API and Spotify API</h3>
-                <p class="proyect"><a href="https://github.com/Janetquispeu/music" class="codigo">View Github</a>
-                <a href="https://janetquispeu.github.io/music/public/" class="demo">View Demo</a></p>
-              </div>
-            </div>
-          </div>                              
-          <div class="col-md-4 col-xs-12 l">
-            <div class="caja caja-imagen">
-              <img class="img-responsive photo" src="img/lyft1.png">
-              <div class="info img-responsive">
-              <h3 class="categoria">This page is for mobile, has the functionality to register the user and locate his address.| Google Maps APIS y jQuery</h3>
-                <p class="proyect"><a href="https://github.com/Janetquispeu/app_lyft" class="codigo">View Github</a>
-                <a href="http://janetquispeu.github.io/app_lyft/" class="demo">View Demo</a></p>
-              </div>
+    <section class="b-project container-fluid">
+      <div class="row">
+        <span class="b-title-item">Projects</span>
+      </div>
+      <ul class="b-project-list">
+        <li class="b-project-item">
+          <img class="b-project-item-img" alt="Pokeapi" loading="lazy" src="./assets/img/pokeapi.png" />
+          <div class="b-project-item-box">
+            <p class="b-project-item-description">Pokedash</p>
+            <span class="b-project-item-description-text">
+              Desarrollada con Next.js,
+              Redux Toolkit y Tailwind CSS, que permite explorar,
+              visualizar y gestionar pokemones de forma interactiva.
+            </span>
+            <div class="b-project-item-links">
+              <a target="_blank" href="https://github.com/Janetquispeu/poke-dash-next" class="codigo">View Github</a>
+              <a target="_blank" href="https://poke-dash-two.vercel.app/dashboard/pokemons" class="demo">View Demo</a></p>
             </div>
           </div>
-        </div> 
-        <div class="row">
-          <div class="col-md-4 col-xs-12 l">
-            <div class="caja caja-imagen">
-              <img class="img-responsive photo" src="img/trelloFoto4.jpg">
-              <div class="info img-responsive">
-                <h3 class="categoria">This page has the functionality of drag and drop task lists. Replica of the page Trello. | Drag and Drop</h3>
-                <p class="proyect"><a href="https://github.com/Janetquispeu/trello" class="codigo">View Github</a>
-                <a href="https://janetquispeu.github.io/trello/" class="demo">View Demo</a></p>
-              </div>
+        </li>
+        <li class="b-project-item">
+          <img class="b-project-item-img" alt="Maquetación" loading="lazy" src="./assets/img/trello.jpg" />
+          <div class="b-project-item-box">
+            <p class="b-project-item-description">Description</p>
+            <div class="b-project-item-links">
+              <a href="https://github.com/Janetquispeu/music" class="codigo">View Github</a>
+              <a href="https://janetquispeu.github.io/music/public/" class="demo">View Demo</a></p>
             </div>
-          </div>                              
-          <div class="col-md-4 col-xs-12 l">
-            <div class="caja caja-imagen">
-              <img class="img-responsive photo" src="img/hackaton2.png">
-              <div class="info img-responsive">
-                <h3 class="categoria">Hackathon with the company GMD using apis of facebook and google maps. This page has the functionality to locate sites for a market study.</h3>
-                <p class="proyect"><a href="https://github.com/cilenedv/vivaGyM" class="codigo">View Github</a>
-                <a href="https://website-hackaton.herokuapp.com/" class="demo">View Demo</a></p>
-              </div>
+          </div>
+        </li>
+        <li class="b-project-item">
+          <img class="b-project-item-img" alt="Maquetación" loading="lazy" src="./assets/img/trello.jpg" />
+          <div class="b-project-item-box">
+            <p class="b-project-item-description">Description</p>
+            <div class="b-project-item-links">
+              <a href="https://github.com/Janetquispeu/music" class="codigo">View Github</a>
+              <a href="https://janetquispeu.github.io/music/public/" class="demo">View Demo</a></p>
             </div>
-          </div>    
-          <div class="col-md-4 col-xs-12 l">
-            <div class="caja caja-imagen">
-              <img class="img-responsive photo" src="img/escuela1.png">
-              <div class="info img-responsive">
-                <h3 class="categoria">Designed page with html5 and css3. | HTML5 y CSS3</h3>
-                <p class="proyect"><a href="https://github.com/Janetquispeu/escuela_danza" class="codigo">View Github</a>
-                <a href="https://janetquispeu.github.io/escuela_danza/" class="demo">View Demo</a></p>
-              </div>
+          </div>
+        </li>
+        <li class="b-project-item">
+          <img class="b-project-item-img" alt="Maquetación" loading="lazy" src="./assets/img/trello.jpg" />
+          <div class="b-project-item-box">
+            <p class="b-project-item-description">Description</p>
+            <div class="b-project-item-links">
+              <a href="https://github.com/Janetquispeu/music" class="codigo">View Github</a>
+              <a href="https://janetquispeu.github.io/music/public/" class="demo">View Demo</a></p>
             </div>
-          </div>                          
-        </div>                              
-      </section>
+          </div>
+        </li>
+        <li class="b-project-item">
+          <img class="b-project-item-img" alt="Maquetación" loading="lazy" src="./assets/img/trello.jpg" />
+          <div class="b-project-item-box">
+            <p class="b-project-item-description">Description</p>
+            <div class="b-project-item-links">
+              <a href="https://github.com/Janetquispeu/music" class="codigo">View Github</a>
+              <a href="https://janetquispeu.github.io/music/public/" class="demo">View Demo</a></p>
+            </div>
+          </div>
+        </li>
+        <li class="b-project-item">
+          <img class="b-project-item-img" alt="Maquetación" loading="lazy" src="./assets/img/trello.jpg" />
+          <div class="b-project-item-box">
+            <p class="b-project-item-description">Description</p>
+            <div class="b-project-item-links">
+              <a href="https://github.com/Janetquispeu/music" class="codigo">View Github</a>
+              <a href="https://janetquispeu.github.io/music/public/" class="demo">View Demo</a></p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
-    <a name="contact"></a>
-    <section class="contact">
-      <div class="titleContact">Contact</div>
-      <div class="contactame">If you liked my project please contact me through my social networks.
-      </div> 
-      <section  class="container redes-sociales">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12"> 
-            <a class="enlace" href="tel:951544219"><span class="icon-phone-square icon"></span><div class="datos">+51 951544219</div></a>
+    <a name="hobby"></a>
+    <section class="b-hobby container-fluid">
+      <div class="row">
+        <span class="b-title-item">Hobbies</span>
+      </div>
+      <div class="b-card-list">
+        <div class="b-group">
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Cinema" loading="lazy" src="./assets/icon/cinema.svg" />
+            </div>
+            <span>Cinema</span>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <a class="enlace" href="mailto:janetquispeu@gmail.com" ><span class="icon-envelope-square icon"></span><div class="datos">janetquispeu@gmail.com</div></a>
-            </a>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Video Games" loading="lazy" src="./assets/icon/video-games.svg" />
+            </div>
+            <span>Video Games</span>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12"> 
-            <a class="enlace" href="https://github.com/Janetquispeu"><span class="icon-git-square icon"></span><div class="datos">Janetquispeu</div></a>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Listen to Music" loading="lazy" src="./assets/icon/music.svg" />
+            </div>
+            <span>Listen to Music</span>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12"> 
-            <a class="enlace" href="https://linkedin.com/in/janet-quispe"><span class="icon-linkedin-square icon"></span><div class="datos">Janet Quispe</div></a>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Travel" loading="lazy" src="./assets/icon/travelling.svg" />
+            </div>
+            <span>Travel</span>
+          </div>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Cook" loading="lazy" src="./assets/icon/cooking.svg" />
+            </div>
+            <span>Cook</span>
           </div>
         </div>
-      </section>
-      <a href="https://janetquispeu.github.io/portafolioFinal/C_vitae.pdf" download="C_vitae.pdf" class="descargar">Download CV</a>
+        <div aria-hidden class="b-group">
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Cinema" loading="lazy" src="./assets/icon/cinema.svg" />
+            </div>
+            <span>Cinema</span>
+          </div>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Video Games" loading="lazy" src="./assets/icon/video-games.svg" />
+            </div>
+            <span>Video Games</span>
+          </div>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Listening Music" loading="lazy" src="./assets/icon/music.svg" />
+            </div>
+            <span>Listening Music</span>
+          </div>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Listening Music" loading="lazy" src="./assets/icon/music.svg" />
+            </div>
+            <span>Travelling</span>
+          </div>
+          <div class="b-card-item">
+            <div class="b-img-card">
+              <img alt="Listening Music" loading="lazy" src="./assets/icon/music.svg" />
+            </div>
+            <span>Cooking</span>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer>© Janet Quispe Uñapillco</footer>
-    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-    <script src="js/participle/particles.min.js"></script>
-    <script src="js/participle/appparticle.js"></script>
-    <script src="js/participle/stats.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript"  src="js/jquery.lettering.js"></script>
-    <script type="text/javascript"  src="js/jquery.textillate.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <a name="contact"></a>
+    <section class="b-contact container-fluid">
+      <div class="row">
+        <span class="b-title-item">Contact</span>
+      </div>
+      <div class="b-contact-box">
+        <div class="b-contact-text">
+          <span>
+            If you have any questions or would like to connect, feel free to reach out!</span>
+          <span>
+            I am always open to new opportunities and eager to expand my knowledge
+            while contributing to meaningful projects. Let's create something great together!
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="b-contact-list">
+          <div class="b-contact-item">
+            <div class="b-contact-img">
+              <img loading="lazy" src="./assets/icon/phone.svg" alt="phone" />
+            </div>
+            <span>+51 914262382</span>
+          </div>
+          <a class="b-contact-item" href="mailto:janetquispeu@gmail.com">
+            <div class="b-contact-img">
+              <img loading="lazy" src="./assets/icon/mail.svg" alt="mail" />
+            </div>
+            <span>janetquispeu@gmail.com</span>
+          </a>
+          <a class="b-contact-item" href="https://github.com/Janetquispeu">
+            <div class="b-contact-img">
+              <img loading="lazy" src="./assets/icon/gitv2.svg" alt="git" />
+            </div>
+            <span>janetquispeu</span>
+          </a>
+          <a class="b-contact-item" href="https://github.com/Janetquispeu">
+            <div class="b-contact-img">
+              <img loading="lazy" src="./assets/icon/linkedin.svg" alt="git" />
+            </div>
+            <span>Janet Quispe</span>
+          </a>
+        </div>
+      </div>
+      <div class="b-download-box">
+        <a href="https://janetquispeu.github.io/portafolioFinal/C_vitae.pdf" download="cv.pdf" class="b-download">Download CV</a>
+      </div>
+    </section>
+    <hr class="b-line"/>
+    <footer>© Developer Portafolio by Janet Quispe Uñapillco</footer>
+    <script type="text/javascript" src="./static/js/jquery-3.1.0.min.js"></script>
+    <script src="./static/js/participle/particles.min.js"></script>
+    <script src="./static/js/participle/appparticle.js"></script>
+    <script src="./static/js/participle/stats.js"></script>
+    <script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./static/js/main.js"></script>
   </body>
 </html>
 
