@@ -24,7 +24,7 @@ html, body, * {
 }
 
 .navbar-toggler {
-  margin-right: 5rem;
+  margin-right: 20px;
 }
 
 li.nav-item {
